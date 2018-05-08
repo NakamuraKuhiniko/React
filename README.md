@@ -1,25 +1,25 @@
 ### GitHub 值得收藏的前端项目
 `声明： 版权归原作者所有，我只是搬运工, 收集并方便自己阅读。`
 
->https://codepen.io/
+>https://codepen.io
 
 一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用。
 
 ![图片描述](/img/6.jpg)
 
-> http://www.codrops.com/
+> http://www.codrops.com
 
 一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https://github.com/codrops)中。
 
 ![图片描述](/img/7.jpg)
 
-> http://microjs.com/
+> http://microjs.com
 
 该网站的资源都托管到了`github`，`microjs.com`是一个可以让你选择微型的`js`类库的网站，该网站里的`js`库都是压缩后不大于5KB的，非常实用
 
 ![图片描述][1]
 
->https://plainjs.com/
+>https://plainjs.com
 
 The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和组件，很实用。里面的项目也都托管到了github
 
@@ -53,10 +53,10 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
  - [FE-interview](https://github.com/qiu-deqing/FE-interview)
 收集的前端面试题和答案。`star:3.2K`
 
- - [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) 
+ - [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
 GitHub最全的前端资源汇总仓库。`star:3.7K`
 
- - [mobile-web-favorites][10] 移动端H5开发，经验，踩坑汇总。`star:1.2K`
+ - [mobile-web-favorites][10] 移动端H5开发经验，踩坑汇总。`star:1.2K`
 
  - [Front-end-tutorial][12] 最全的资源教程-前端涉及的所有知识体系。`star:3.5K`
 
