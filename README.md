@@ -1,13 +1,25 @@
 ### GitHub 值得收藏的前端项目
+`声明： 版权归原作者所有，我只是搬运工, 收集并方便自己阅读。`
 
-> http://microjs.com/#
+>https://codepen.io/
+
+一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用。
+
+![图片描述](/img/6.jpg)
+
+> http://www.codrops.com/
+
+一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https://github.com/codrops)中。
+
+![图片描述](/img/7.jpg)
+
+> http://microjs.com/
 
 该网站的资源都托管到了`github`，`microjs.com`是一个可以让你选择微型的`js`类库的网站，该网站里的`js`库都是压缩后不大于5KB的，非常实用
 
-
 ![图片描述][1]
 
->https://plainjs.com/（10.22更新）
+>https://plainjs.com/
 
 The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和组件，很实用。里面的项目也都托管到了github
 
@@ -16,9 +28,10 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
 # 目录
 
 * [综合/资源](#综合资源)
+* [HTML5](#html5)
 * [样式/UI/css](#样式uicss)
-* [测试/工具](#测试工具)
 * [构建工具](#构建工具)
+* [测试/工具](#测试工具)
 * [canvas/数据可视化](#canvas数据可视化)
 * [动画](#动画)
 * [插件](#插件)
@@ -26,43 +39,54 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
 * [移动端](#移动端)
 * [Node.js相关](#nodejs相关)
 * [React相关](#react相关)
-* [HTML5](#html5)
 * [模板引擎](#模板引擎)
 * [浏览器兼容方案](#浏览器兼容方案)
-* [菊苣](#菊苣)
+* [高产大牛](#菊苣)
 * [其他](#其他)
 * [优秀开源组织](#优秀开源组织)
 
 综合/资源
 ----
 
- - [frontend-dev-bookmarks][3] 一个巨大的前端开发资源清单。`star:24101`
+ - [frontend-dev-bookmarks][3] 一个巨大的前端开发资源清单。`star:24K`
 
- - [front-end-collect][4] 分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者。`star:860`
+ - [FE-interview](https://github.com/qiu-deqing/FE-interview)
+收集的前端面试题和答案。`star:3.2K`
 
- - [Front-end-Interview-questions][5]   史上最全前端开发面试问题及答案
+ - [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) 
+GitHub最全的前端资源汇总仓库。`star:3.7K`
 
- - [f2e-hub][6] 包含`Animation，UI，dialog，Carousels，color，image，workflow`等。`star:100`
+ - [mobile-web-favorites][10] 移动端H5开发，经验，踩坑汇总。`star:1.2K`
 
- - [awesome-javascript][7] 一系列很棒的`javascript` 库，资源。`star:3100`
+ - [Front-end-tutorial][12] 最全的资源教程-前端涉及的所有知识体系。`star:3.5K`
 
- - [fks][8]  前端技能汇总，包含前端知识架构，后端知识，`linux`，书籍推荐等。`star:4000`
+ - [awesome-javascript][7] 一系列很棒的`javascript` 库，资源。`star:14K`
 
- - [node123][9] `node.js`中文资料导航。`star:1200`
+ - [front-end-collect][4] 作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者。`star:3.6K`
 
- - [mobile-web-favorites][10] 移动端web开发收藏夹。`star:200`
+ - [fks][8]  前端技能汇总，包含前端知识架构，后端知识，`linux`，书籍推荐等。`star:12K`
 
- - [gulp-book][11] `Gulp` 入门指南
+ - [node123][9] `node.js`中文资料导航。`star:2.8K`
 
- - [Front-end-tutorial][12] 最全的资源教程-前端涉及的所有知识体系。（12.25更新）
- - [use-gulp](https://github.com/Platform-CUF/use-gulp)
-。gulp资料收集
+HTML5
+-----
+ - [html5-boilerplate][147] 一套专业的前端模版，主要用于开发快速、健壮、适应性强的app或网站。`star:27K` （12.25更新）
+
+ - [Browserquest][148] `Mozilla`开发的`HTML5`多人在线游戏。`star:5200`
+
+ - [video.js][149] 开源的HTML5和Flash视频播放器。支持自定义进度条、按钮以及工具栏的底色。`star:9.1K`
+
+ - [html5shiv][150] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:6K`(7.15更新)
+
+ - [brunch][151] 快速的前端 `HTML5` 构建工具。star:4.5K（7.19更新）
+
+ - [ulkit][152] 一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式HTML5 框架。`star:5.3K` (8.3更新)
+
 
 样式/UI/css
 ----
 
- - [Semantic-UI][13] 让你使用任何`HTML`标签 来表现UI控件。
-这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。`star:17500`
+ - [Semantic-UI][13] 让你使用任何`HTML`标签 来表现UI控件。这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。`star:17500`
 
 
 ![图片描述][14]
@@ -78,8 +102,22 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
  - [mui][19] 轻量级css框架。`star:1.5K`(10.15更新)
 
  - [img2css][20] 将图片转为纯css的黑科技。`star:1.5K`（12.25更新）
+- 
  - [WeUI](https://github.com/weui/weui)为微信 Web 服务量身设计。`star:8.2K+`
  - [resume-master](https://github.com/hawx1993/resume-master) 简洁易用的简历生成项目，可部署到github pages在线浏览。
+
+
+构建工具
+-------------
+
+- [parcel][51]一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具。`star:22K+`
+
+ - [webpack][51]一个模块打包工具，你可以使用`webpack`管理你的模块依赖，并编绎输出模块们所需的静态文件。`star:40K+`
+
+ - [gulp][39] 基于`node.js`流的新一代前端构建系统。`star:29K+
+  
+ - [yeoman][38] 一个强健的脚手架工具，库，及工作流程的组合。`star:2.5K+`
+
 
 测试/工具
 -----
@@ -112,17 +150,6 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
  - [chai][35] 一个针对 `Node.js` 和浏览器的`TDD`(测试驱动开发)/`BDD`(行为驱动开发)的断言框架，可与任何 `JavaScript` 测试框架集成。`star:2K`（6.29更新）
 
  - [Qunit][36] 一个很容易使用的js单元测试框架，该框架是由`jQuery`团队的成员所开发，并且是`jQuery`的官方测试套件。`star:3.3K`（6.29更新）
-
-构建工具
--------------
-- [parcel][51]一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具。`star:22K+`
-
- - [webpack][51]一个模块打包工具，你可以使用`webpack`管理你的模块依赖，并编绎输出模块们所需的静态文件。`star:40K+`
-
- - [gulp][39] 基于`node.js`流的新一代前端构建系统。`star:29K+
-  
- - [yeoman][38] 一个强健的脚手架工具，库，及工作流程的组合。`star:2.5K+`
-
 
 canvas/数据可视化
 ---------
@@ -294,7 +321,6 @@ canvas/数据可视化
 Node.js相关
 ---------
 
-
  - [node-restify](https://github.com/restify/node-restify) node.js REST framework specifically meant for web service APIs。`star:5K+`
 
  - [http://nodeframework.com/][123] 专门收集`node.js`的`web`框架的网站。其项目同样均托管在`github`上。
@@ -330,6 +356,7 @@ Node.js相关
 
 React相关
 -------
+
  - [react-style][138] 是 `React.js` 可维护的样式组件
 
  - [react-component][139]  基于`reactjs`的组件。
@@ -349,21 +376,6 @@ React相关
 
  - [react-native-lesson][146] `react-native`入门指南.`star:1.3K`(2016,1.4更新)
  - [react-web](https://github.com/taobaofed/react-web)用React Native构建 web app的框架。`star:1.2K+`
-
-HTML5
------
- - [html5-boilerplate][147] 一套专业的前端模版，主要用于开发快速、健壮、适应性强的app或网站。`star:27K` （12.25更新）
-
- - [Browserquest][148] `Mozilla`开发的`HTML5`多人在线游戏。`star:5200`
-
- - [video.js][149] 开源的HTML5和Flash视频播放器。支持自定义进度条、按钮以及工具栏的底色。`star:9.1K`
-
- - [html5shiv][150] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:6K`(7.15更新)
-
- - [brunch][151] 快速的前端 `HTML5` 构建工具。star:4.5K（7.19更新）
-
- - [ulkit][152] 一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式HTML5 框架。`star:5.3K` (8.3更新)
-
 
 模板引擎
 ----
@@ -393,7 +405,7 @@ HTML5
 
  - [f2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。`star:1K`
 
-菊苣
+高产大牛
 ----
 
  - [Evan You][163]  前端轻量级框架`MVVM`框架`vue.js`作者，前`Google`工程师。`followers:1.6K`
