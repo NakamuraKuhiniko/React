@@ -1,34 +1,29 @@
-### GitHub 值得收藏的前端项目
+# GitHub 值得收藏的前端项目
+
 `声明： 版权归原作者所有，我只是搬运工, 收集并方便自己阅读。`
 
->https://codepen.io
+- [codepen](https://codepen.io) 一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用。
 
-一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用。
+  ![图片描述](/img/6.jpg)
 
-![图片描述](/img/6.jpg)
+- [codrops](http://www.codrops.com) 一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https://github.com/codrops)中。
 
-> http://www.codrops.com
+  ![图片描述](/img/7.jpg)
 
-一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https://github.com/codrops)中。
+- [microjs](http://microjs.com) 该网站的资源都托管到了`github`，`microjs.com`是一个可以让你选择微型的`js`类库的网站，该网站里的`js`库都是压缩后不大于5KB的，非常实用
 
-![图片描述](/img/7.jpg)
+  ![图片描述][1]
 
-> http://microjs.com
+- [plainjs](https://plainjs.com) 该仓库都是用原生`js`写的插件和组件，很实用。里面的项目也都托管到了github
 
-该网站的资源都托管到了`github`，`microjs.com`是一个可以让你选择微型的`js`类库的网站，该网站里的`js`库都是压缩后不大于5KB的，非常实用
+  ![图片描述][2]
 
-![图片描述][1]
+- [docschina](https://docschina.org/) 印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍。
+  ![图片描述](/img/8.jpg)
 
->https://plainjs.com
-
-The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和组件，很实用。里面的项目也都托管到了github
-
-![图片描述][2]
-
-# 目录
+## 目录
 
 * [综合/资源](#综合资源)
-* [HTML5](#html5)
 * [样式/UI/css](#样式uicss)
 * [构建工具](#构建工具)
 * [测试/工具](#测试工具)
@@ -40,427 +35,406 @@ The Vanilla JavaScript Repository，该仓库都是用原生`js`写的插件和�
 * [Node.js相关](#nodejs相关)
 * [React相关](#react相关)
 * [模板引擎](#模板引擎)
+* [WEB编辑器](#WEB编辑器)
 * [浏览器兼容方案](#浏览器兼容方案)
 * [高产大牛](#菊苣)
 * [其他](#其他)
 * [优秀开源组织](#优秀开源组织)
 
-综合/资源
-----
+### 综合/资源
 
- - [frontend-dev-bookmarks][3] 一个巨大的前端开发资源清单。`star:24K`
+- [frontend-dev-bookmarks][3] 一个巨大的前端开发资源清单。`star:24K`
 
- - [FE-interview](https://github.com/qiu-deqing/FE-interview)
-收集的前端面试题和答案。`star:3.2K`
+- [FE-interview](https://github.com/qiu-deqing/FE-interview) 收集的前端面试题和答案。`star:3.2K`
 
- - [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource)
-GitHub最全的前端资源汇总仓库。`star:3.7K`
+- [Awsome-Front-End-learning-resource](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource) GitHub最全的前端资源汇总仓库。`star:3K`
 
- - [mobile-web-favorites][10] 移动端H5开发经验，踩坑汇总。`star:1.2K`
+- [mobile-web-favorites][10] 移动端H5开发经验、资源、以及踩坑汇总。`star:1K`
 
- - [Front-end-tutorial][12] 最全的资源教程-前端涉及的所有知识体系。`star:3.5K`
+- [Front-end-tutorial][12] 最全的资源教程-前端涉及的所有知识体系。`star:3K`
 
- - [awesome-javascript][7] 一系列很棒的`javascript` 库，资源。`star:14K`
+- [awesome-javascript][7] 一系列很棒的`javascript` 库、插件、资源。`star:14K`
 
- - [front-end-collect][4] 作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者。`star:3.6K`
+- [front-end-collect][4] 作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者。`star:3K`
 
- - [fks][8]  前端技能汇总，包含前端知识架构，后端知识，`linux`，书籍推荐等。`star:12K`
+- [fks][8] 前端技能汇总，包含前端知识架构，后端知识，`linux`，书籍推荐等。`star:12K`
 
- - [node123][9] `node.js`中文资料导航。`star:2.8K`
+- [node123][9] `node.js`中文资料导航。`star:2K`
 
-HTML5
------
- - [html5-boilerplate][147] 一套专业的前端模版，主要用于开发快速、健壮、适应性强的app或网站。`star:27K` （12.25更新）
+### 样式/UI/css
 
- - [Browserquest][148] `Mozilla`开发的`HTML5`多人在线游戏。`star:5200`
+- [materialize](https://github.com/Dogfalo/materialize) materialize 是material design一套轻量级的纯CSS框架。material design 是Goole提出的一套UI设计方案，并应Goole用于所有产品中。`star:32K` [showcase](https://materializecss.com/showcase.html)
 
- - [video.js][149] 开源的HTML5和Flash视频播放器。支持自定义进度条、按钮以及工具栏的底色。`star:9.1K`
+- [Semantic-UI][13] 让你使用任何`HTML`标签 来表现UI控件。这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。`star:41K`
 
- - [html5shiv][150] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:6K`(7.15更新)
+- [ulkit][152] 一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式HTML5 框架。`star:12K`
 
- - [brunch][151] 快速的前端 `HTML5` 构建工具。star:4.5K（7.19更新）
+- [glue][16] 一个生成CSS sprites的简单的命令行工具。star:2.5K
 
- - [ulkit][152] 一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式HTML5 框架。`star:5.3K` (8.3更新)
+- [css3 PIE][18] 允许在IE上使用`CSS3`绝大部分的酷炫功能。官网：http://css3pie.com/
 
+- [mui][19] 轻量级css框架。`star:1.5K`
 
-样式/UI/css
-----
+- [img2css][20] 将图片转为纯css的黑科技。`star:1.5K`
 
- - [Semantic-UI][13] 让你使用任何`HTML`标签 来表现UI控件。这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架。`star:17500`
+- [WeUI](https://github.com/weui/weui)为微信 Web 服务量身设计。`star:8.2K+`
 
+- [resume-master](https://github.com/hawx1993/resume-master) 简洁易用的简历生成项目，可部署到github pages在线浏览。
 
-![图片描述][14]
+- [primer][15]   github站点所使用的一套CSS框架 `star:7K`
 
- - [primer][15]   `CSS`风格指南。`star:3600`
-
- - [glue][16] 一个生成CSS sprites的简单的命令行工具。star:2.5K (7.19更新)
-
- - [postcss][17] 用js插件来对css进行转换，类似Sass的预编译器，但实现了模块化，并且更加强大。`star:4.5K`(7.31更新)
-
- - [css3 PIE][18] 允许在IE上使用`CSS3`绝大部分的酷炫功能。官网：http://css3pie.com/
-
- - [mui][19] 轻量级css框架。`star:1.5K`(10.15更新)
-
- - [img2css][20] 将图片转为纯css的黑科技。`star:1.5K`（12.25更新）
-- 
- - [WeUI](https://github.com/weui/weui)为微信 Web 服务量身设计。`star:8.2K+`
- - [resume-master](https://github.com/hawx1993/resume-master) 简洁易用的简历生成项目，可部署到github pages在线浏览。
-
-
-构建工具
--------------
+### 构建工具
 
 - [parcel][51]一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具。`star:22K+`
 
- - [webpack][51]一个模块打包工具，你可以使用`webpack`管理你的模块依赖，并编绎输出模块们所需的静态文件。`star:40K+`
+- [webpack][51]一个模块打包工具，你可以使用`webpack`管理你的模块依赖，并编绎输出模块们所需的静态文件。`star:40K+`
 
- - [gulp][39] 基于`node.js`流的新一代前端构建系统。`star:29K+
-  
- - [yeoman][38] 一个强健的脚手架工具，库，及工作流程的组合。`star:2.5K+`
+- [gulp][39] 基于`node.js`流的新一代前端构建系统。`star:29K+
 
+- [yeoman][38] 一个强健的脚手架工具，库，及工作流程的组合。`star:2.5K+`
 
-测试/工具
------
+### 测试/工具
 
- - [mocha][21] 一个简单、灵活有趣的 `JavaScript` 测试框架，用于 `Node.js` 和浏览器上的 `JavaScript` 应用测试。 `star:6680`
+- [postcss][17] 用js插件来对css样式文件，进行转换、预编译等操作，并且实现了模块化，支持非常多插架，强烈建议在项目中使用。`star:18K`
 
- - [csscss][23] css代码冗余分析仪，用于分析冗余 。`star:2800`
+- [stylus](https://github.com/stylus/stylus) 富有表现力的，健壮的CSS预编译语言, 除了代码简洁，可读性强外，函数功能非常强大，与可与JS混合使用，可实现动态CSS编程，强烈建议在项目中使用。 `star:9K`
 
- - [es6-tools][24]  `es6` 工具集，包括`Grunt Tasks，Gulp Plugins，Broccoli Plugins，Brunch Plugins，Webpack plugins`等等。`star:1860`
+- [less](https://github.com/less/less.js) 轻量级的，动态CSS预编语言，具有CSS所有特性，并提供了动态编程方式编写CSS代码。也是各大UI框架所选用的样式语言，比如bootstrap,ant design等。`star:15K`
 
- - [async][25] 一个工具模块，提供了直接而强大的 `JavaScript` 异步功能。虽然是为 `Node.js` 设计的，但是它也可以直接在浏览器中使用。`star:13000`
+- [sass](https://github.com/sass/node-sass) 动态CSS预编语言, 并有拥有强大sass compass的生态圈，可以直接引入并使用，sass是由ruby编写的，node-sass是node重构版本，方便npm直接使用。`star:5K`
 
- - [simditor][26] 团队协作工具 `Tower` 使用的富文本编辑器。`star:1300`
+- [mocha][21] 一个简单、灵活有趣的 `JavaScript` 测试框架，用于 `Node.js` 和浏览器上的 `JavaScript` 应用测试。 `star:6680`
 
- - [HTMLHint][27] `HTML` 静态代码分析工具，可以集成到`IDE`环境或编译系统中。`star:900`
+- [csscss][23] css代码冗余分析仪，用于分析冗余 。`star:2800`
 
- - [jshint][28] `js`静态代码分析工具，可以帮你检测`js`语法错误和潜在的问题。`star:5100`
+- [es6-tools][24]  `es6` 工具集，包括`Grunt Tasks，Gulp Plugins，Broccoli Plugins，Brunch Plugins，Webpack plugins`等等。`star:1860`
 
- - [csslint][29] 分析和优化你的`CSS`样式表的工具。由[Nicholas C.
-   Zakas][30]所写。`star:2700`
+- [async][25] 一个工具模块，提供了直接而强大的 `JavaScript` 异步功能。虽然是为 `Node.js` 设计的，但是它也可以直接在浏览器中使用。`star:13000`
 
- - [protractor][31] 一款端对端的`angular apps` 测试框架。`star:4K`
+- [HTMLHint][27] `HTML` 静态代码分析工具，可以集成到`IDE`环境或编译系统中。`star:900`
 
- - [casperjs][32] 一个基于`PhantomJS`的开源导航脚本和测试工具。`star:4.8K`
+- [jshint][28] `js`静态代码分析工具，可以帮你检测`js`语法错误和潜在的问题。`star:5100`
 
- - [Karma][33] 自动化完成单元测试，允许你在多个浏览器里执行`js`代码。让你的`TDD`变得简单，快速，有趣。`star:5.3K`
+- [csslint][29] 分析和优化你的`CSS`样式表的工具。由[Nicholas C.Zakas][30]所写。`star:2700`
 
- - [jasmine][34]  是一个简易的`JS`单元测试框架， 用来测试`Javascript`代码。`star:9.1K`（6.28更新）
+- [protractor][31] 一款端对端的`angular apps` 测试框架。`star:4K`
 
- - [chai][35] 一个针对 `Node.js` 和浏览器的`TDD`(测试驱动开发)/`BDD`(行为驱动开发)的断言框架，可与任何 `JavaScript` 测试框架集成。`star:2K`（6.29更新）
+- [casperjs][32] 一个基于`PhantomJS`的开源导航脚本和测试工具。`star:4.8K`
 
- - [Qunit][36] 一个很容易使用的js单元测试框架，该框架是由`jQuery`团队的成员所开发，并且是`jQuery`的官方测试套件。`star:3.3K`（6.29更新）
+- [Karma][33] 自动化完成单元测试，允许你在多个浏览器里执行`js`代码。让你的`TDD`变得简单，快速，有趣。`star:5.3K`
 
-canvas/数据可视化
----------
+- [jasmine][34]  是一个简易的`JS`单元测试框架， 用来测试`Javascript`代码。`star:9.1K`
 
- - [echarts][41] 基于`Canvas`，纯`Javascript`图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表。`star:6900`
+- [chai][35] 一个针对 `Node.js` 和浏览器的`TDD`(测试驱动开发)/`BDD`(行为驱动开发)的断言框架，可与任何 `JavaScript` 测试框架集成。`star:2K`
 
- - [Chart.js][42] 使用`<canvas>`标签的简易HTML5图表。`star:14600`
+- [Qunit][36] 一个很容易使用的js单元测试框架，该框架是由`jQuery`团队的成员所开发，并且是`jQuery`的官方测试套件。`star:3.3K`
 
- - [sketch.js][43] 跨平台`JavaScript`创意编码框架，`gzip`压缩后仅有2kb。`star:1500`
+### canvas/数据可视化
 
- - [d3][44] 一个基于数据操作文档的`js`数据可视化框架，最流行的可视化库之一。`star:38000`
+- [echarts][41] 基于`Canvas`，纯`Javascript`图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表。`star:6900`
 
- - [zrender][45] 一个轻量级的`Canvas`类库，MVC封装，数据驱动，提供类`DOM`事件模型，让`canvas`绘图大不同！`star:850`
+- [Chart.js][42] 使用`<canvas>`标签的简易HTML5图表。`star:14600`
 
- - [c3][46] 一个基于 `D3.js` 的可重用 `JavaScript` 图表库。几乎零学习曲线。`star:4.5K`（6.28更新）
+- [sketch.js][43] 跨平台`JavaScript`创意编码框架，`gzip`压缩后仅有2kb。`star:1500`
 
- - [img2css][47] 将图片转为纯css代码。（11.3更新）
+- [d3][44] 一个基于数据操作文档的`js`数据可视化框架，最流行的可视化库之一。`star:38000`
 
- - [highcharts](https://github.com/highcharts/highcharts) 基于SVG的JavaScript 图表框架
+- [zrender][45] 一个轻量级的`Canvas`类库，MVC封装，数据驱动，提供类`DOM`事件模型，让`canvas`绘图大不同！`star:850`
 
+- [c3][46] 一个基于 `D3.js` 的可重用 `JavaScript` 图表库。几乎零学习曲线。`star:4.5K`
 
-动画
---
+- [img2css][47] 将图片转为纯css代码。
 
- - [animate.css][52] 一个跨浏览器的`CSS`动画库。简单易用易上手。`star:23000`
+- [highcharts](https://github.com/highcharts/highcharts) 基于SVG的JavaScript 图表框架
 
- - [move.js][53] 极小的 `JavaScript` 库,支持 `CSS3` 的动画效果,非常简单优雅。`star：2600`
+### 动画
 
- - [TweenJS][54] 是一个简单但强大的 `Javascript` 动画库。`CreateJS` 套件的一部分。`star:1500`
+- [animate.css][52] 一个跨浏览器的`CSS`动画库。简单易用易上手。`star:23000`
 
- - [bounce.js][55] 一个用于制作漂亮的 `CSS3` 关键帧动画的 `JavaScript`
-   库,使用其特有的方式生成的动画效果。`star:3600`
+- [move.js][53] 极小的 `JavaScript` 库,支持 `CSS3` 的动画效果,非常简单优雅。`star：2600`
 
- - [Swipe][56] 号称最精确的`Slider`触摸库，专为移动设备优化。`star:4.7K`
+- [TweenJS][54] 是一个简单但强大的 `Javascript` 动画库。`CreateJS` 套件的一部分。`star:1500`
 
- - [tween.js][57] 一款可生成平滑动画效果的`js`动画库。`tween.js`允许你以平滑的方式修改元素的属性值。它可以通过设置生成各种类似CSS3的动画效果。`star:2.5K`(7.15更新)
+- [bounce.js][55] 一个用于制作漂亮的 `CSS3` 关键帧动画的 `JavaScript`
+  库,使用其特有的方式生成的动画效果。`star:3600`
 
- - [parallax.js][58]轻量级的的视差引擎，能对智能设备的方向作出反应。。`star:9K` （10.17更新）
+- [Swipe][56] 号称最精确的`Slider`触摸库，专为移动设备优化。`star:4.7K`
 
- - [Velocity][59] 是一款和jQuery的`$.animate()`有相同API的动画引擎。很适合移动端的动画开发，还打包了颜色动画，转换，循环，easing效果，类动画、滚动等功能。`star：9.5K`(12月25更新)
+- [tween.js][57] 一款可生成平滑动画效果的`js`动画库。`tween.js`允许你以平滑的方式修改元素的属性值。它可以通过设置生成各种类似CSS3的动画效果。`star:2.5K`
 
+- [parallax.js][58]轻量级的的视差引擎，能对智能设备的方向作出反应。。`star:9K`
 
+- [Velocity][59] 是一款和jQuery的`$.animate()`有相同API的动画引擎。很适合移动端的动画开发，还打包了颜色动画，转换，循环，easing效果，类动画、滚动等功能。`star：9.5K`
 
-插件
---
+### 插件
 
- - [front-end-plugins](https://github.com/iamjoel/front-end-plugins) 前端常用插件汇总
+- [video.js][149] 开源的HTML5和Flash视频播放器。支持自定义进度条、按钮以及工具栏的底色。`star:21K` [demo](http://videojs.com/)
 
- - [jquery.transit](https://github.com/rstacruz/jquery.transit) 超级流畅的css3 transformations 和 transitions的jQuery插件。 `star:7K+`
+- [front-end-plugins](https://github.com/iamjoel/front-end-plugins) 前端常用插件汇总
 
- - [zepto.fullpage][60] 专注于移动端的全屏滚动插件。`star:510`
+- [jquery.transit](https://github.com/rstacruz/jquery.transit) 超级流畅的css3 transformations 和 transitions的jQuery插件。 `star:7K+`
 
- - [fullPage.js][61] pc端的全屏滚动插件。 `star:9500` [view demo][62]
+- [zepto.fullpage][60] 专注于移动端的全屏滚动插件。`star:510`
 
- - [onepage-scroll][63] 可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本。[View demo][64] 。`star:7700`
+- [fullPage.js][61] pc端的全屏滚动插件。 `star:9500` [view demo][62]
 
- - [slick][65] 一款完全响应式的 `jQuery` 图片滚动插件，能够根据容器自动适应宽度。`star:10000` [view demo][66]
+- [onepage-scroll][63] 可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本。[View demo][64] 。`star:7700`
 
- - [superslides][67] 致力于解决网站大部分特效展示问题。网站上常用的“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等只需要一个`SuperSlide`即可解决！ [view demo][68] `star:1100`
+- [slick][65] 一款完全响应式的 `jQuery` 图片滚动插件，能够根据容器自动适应宽度。`star:10000` [view demo][66]
 
- - [jQuery-One-Page-Nav][69] 当用户滚动网页时，实现平滑滚动和智能导航。`star:1100`
+- [superslides][67] 致力于解决网站大部分特效展示问题。网站上常用的“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等只需要一个`SuperSlide`即可解决！ [view demo][68] `star:1100`
 
- - [slider][70] 一个`jquery`完全开源的`JavaScript`代码库，用户可以开发，调试和深度定制自己的滑块。`star:850` [view demo][71]
+- [jQuery-One-Page-Nav][69] 当用户滚动网页时，实现平滑滚动和智能导航。`star:1100`
 
- - [github-hovercard][72] github 鼠标悬停显示用户，仓库等摘要信息。(10.15更新)
+- [slider][70] 一个`jquery`完全开源的`JavaScript`代码库，用户可以开发，调试和深度定制自己的滑块。`star:850` [view demo][71]
 
- - [onepage-scroll][73] 一款带有背景视觉差效果的`jQuery`整页滚动特效插件。star：8K （10.17更新）[view demo][74]
+- [github-hovercard][72] github 鼠标悬停显示用户，仓库等摘要信息。
 
- - [justlazy.js][75] 轻量级js图片延迟加载插件。（10.22更新）
+- [onepage-scroll][73] 一款带有背景视觉差效果的`jQuery`整页滚动特效插件。star：8K [view demo][74]
 
- - [awesome-browser-extensions-for-github][76] 收集关于github上优秀的浏览器插件。非常实用。star:200 (12.25更新)
+- [justlazy.js][75] 轻量级js图片延迟加载插件。
 
-框架、库和组件
------
+- [awesome-browser-extensions-for-github][76] 收集关于github上优秀的浏览器插件。非常实用。star:200
 
- - [polymer][77] `web`组件构建框架。一套以“一切皆组件、最少化代码量、最少框架限制”为设计理念的`Web UI`框架。 `star:9900`
+### 框架、库和组件
 
- - [impress.js][78] 创建令人兴奋的演示。使用`CSS3`的转换和过渡，这个库允许你创建令人印象深刻的演示文稿。[view demo][79]。`star:24300`
+- [polymer][77] `web`组件构建框架。一套以“一切皆组件、最少化代码量、最少框架限制”为设计理念的`Web UI`框架。 `star:9900`
 
- - [ionic][80] 先进的`HTML5` 移动端开发框架。帮助开发者使用HTML5, CSS3和`js`做出不可思议的`hybrid app`。`star:17000`
+- [impress.js][78] 创建令人兴奋的演示。使用`CSS3`的转换和过渡，这个库允许你创建令人印象深刻的演示文稿。[view demo][79]。`star:24300`
 
- - [reveal.js][81] 基于`CSS3`的3D幻灯片工具。能够制作绚丽的演示文稿并生成`HTML`格式，将它发布到web上。`star:21500` [view demo][82]
+- [ionic][80] 先进的`HTML5` 移动端开发框架。帮助开发者使用HTML5, CSS3和`js`做出不可思议的`hybrid app`。`star:17000`
 
- - [pure.css][83] 一组很小的，响应式的`css`组件，你可以在网页的项目上到处使用。`star:12000`
+- [reveal.js][81] 基于`CSS3`的3D幻灯片工具。能够制作绚丽的演示文稿并生成`HTML`格式，将它发布到web上。`star:21500` [view demo][82]
 
- - [three.js][84] 是`JavaScript`编写的`WebGL`第三方库。提供了非常多的3D显示功能。`star:20000`
+- [pure.css][83] 一组很小的，响应式的`css`组件，你可以在网页的项目上到处使用。`star:12000`
 
- - [TimelineJS][85] 轻松制作时间轴。`star:8000`
+- [three.js][84] 是`JavaScript`编写的`WebGL`第三方库。提供了非常多的3D显示功能。`star:20000`
 
- - [jquery-pjax][86] 对`ajax` 和 `pushState`的封装，让你可以很方便的使用`pushState`技术，用以实现页面无刷新加载。`star:11500`
+- [TimelineJS][85] 轻松制作时间轴。`star:8000`
 
- - [highlight.js][87] `javascript`语法高亮。既可以运行在浏览器端也可以运行在服务端。`star:5500`
+- [jquery-pjax][86] 对`ajax` 和 `pushState`的封装，让你可以很方便的使用`pushState`技术，用以实现页面无刷新加载。`star:11500`
 
- - [commander.js][88] `Node.js`命令行工具。`star:3800`
+- [highlight.js][87] `javascript`语法高亮。既可以运行在浏览器端也可以运行在服务端。`star:5500`
 
- - [togetherjs][89] 由`Mozilla`打造的一款可以给网站添加实时协作功能的`JavaScript`库。`star:5K`
+- [commander.js][88] `Node.js`命令行工具。`star:3800`
 
- - [HTML.js][90] 轻量级的简化与`DOM`操作的js库。[view demo][91] `star:1.5K`
+- [togetherjs][89] 由`Mozilla`打造的一款可以给网站添加实时协作功能的`JavaScript`库。`star:5K`
 
- - [MEAN.JS][92] 全栈式javascript，使用`MongoDB, Express,
+- [HTML.js][90] 轻量级的简化与`DOM`操作的js库。[view demo][91] `star:1.5K`
+
+- [MEAN.JS][92] 全栈式javascript，使用`MongoDB, Express,
    AngularJS` 和 `Node.js`。`star:2.2K`
 
- - [wechat.js][93] 微信相关的 js 操作：分享、网络、菜单。`star:700`
+- [wechat.js][93] 微信相关的 js 操作：分享、网络、菜单。`star:700`
 
- - [JavaScript-Load-Image][94] 一个`js`加载和转换图像文件的库。 `star:1.2K` [view
-   demo][95]
+- [JavaScript-Load-Image][94] 一个`js`加载和转换图像文件的库。 `star:1.2K` [view
+  demo][95]
 
- - [progress.js][96] 一个 `js` 和 `CSS3`的库，帮助开发人员为网页上的每个对象创建和管理进度条效果。`star:1.6K` [view demo][97]
+- [progress.js][96] 一个 `js` 和 `CSS3`的库，帮助开发人员为网页上的每个对象创建和管理进度条效果。`star:1.6K` [view demo][97]
 
- - [foundation][98] 号称世界上最先进的响应式前端框架，也是一款`Mobile First`的框架。`star:21K`
+- [foundation][98] 号称世界上最先进的响应式前端框架，也是一款`Mobile First`的框架。`star:21K`
 
- - [Sugar][99] 一个`JavaScript`库。它扩展了现有的`JS`对象的方法，让你可以用更少的代码做更多的事情。`star:2.8K`
+- [Sugar][99] 一个`JavaScript`库。它扩展了现有的`JS`对象的方法，让你可以用更少的代码做更多的事情。`star:2.8K`
 
- - [todomvc][100] 帮你挑选一款MV*框架，它使用不同的最流行的`js MV*`框架实现了一个相同的`Todo`应用。`star:13K`
+- [todomvc][100] 帮你挑选一款MV*框架，它使用不同的最流行的`js MV*`框架实现了一个相同的`Todo`应用。`star:13K`
 
- - [yepnope.js][101] 这是一个异步的条件加载框架，速度超快，只为用户加载需要的脚本。使用非常简单，非常有用！`star:2.5K`
+- [yepnope.js][101] 这是一个异步的条件加载框架，速度超快，只为用户加载需要的脚本。使用非常简单，非常有用！`star:2.5K`
 
- - [Material UI][102] 是一个 `CSS` 框架和一组实现谷歌 Material Design 设计规范的 React
-   组件。`star:8.8K`（6.28更新）
+- [Material UI][102] 是一个 `CSS` 框架和一组实现谷歌 Material Design 设计规范的 React
+  组件。`star:8.8K`
 
- - [Pikaday][103] 是一个 `JavaScript` 日期选择器，特点是轻量级、无依赖和模块化的
-   `CSS`。`star:2.8K` [view demo][104](7.1更新)
+- [Pikaday][103] 是一个 `JavaScript` 日期选择器，特点是轻量级、无依赖和模块化的
+  `CSS`。`star:2.8K` [view demo][104]
 
- - [vuejs][106] 用于构建交互式的 Web 界面的库。它提供了 `MVVM` 数据绑定和一个可组合的组件系统,具有简单、灵活的 API。`star:6K`（7.12更新）
+- [vuejs][106] 用于构建交互式的 Web 界面的库。它提供了 `MVVM` 数据绑定和一个可组合的组件系统,具有简单、灵活的 API。`star:6K`
 
- - [meteor][107] 超简单的，数据库无处不在的，用于自动化和简化实时运行的 `Web` 应用程序的开发。纯`JavaScript`的Web框架。`star:27K`（7.12更新）
+- [meteor][107] 超简单的，数据库无处不在的，用于自动化和简化实时运行的 `Web` 应用程序的开发。纯`JavaScript`的Web框架。`star:27K`
 
- - [webuploader][108]
+- [webuploader][108]
    一个简单的以`HTML5`为主，`FLASH`为辅的现代文件上传组件。支持大文件分片并发上传，极大的提高了文件上传效率。`star:1.8K`
 
- - [fastclick][109]触摸UI上的消除点击延迟js库。`star:1W`(10.15更新)
+- [fastclick][109]触摸UI上的消除点击延迟js库。`star:1W`
 
- - [wangEditor][110] 轻量级web富文本框。 (10.15更新)
+- [wangEditor][110] 轻量级web富文本框。
 
- - [benchmark.js][111]是强大的基准测试库，几乎适用于所有`JavaScript`平台。支持`high-resolution`定时器，并返回重要的统计结果。`star:1.7k`(10.15更新)
+- [benchmark.js][111]是强大的基准测试库，几乎适用于所有`JavaScript`平台。支持`high-resolution`定时器，并返回重要的统计结果。`star:1.7k`
 
- - [headroom.js][112]是一个轻量级、纯 JS 组件,用来隐藏或展现页面上的元素,为你的页面留下更多展示内容的空间。`star:7.5K` (10.15更新)
+- [headroom.js][112]是一个轻量级、纯 JS 组件,用来隐藏或展现页面上的元素,为你的页面留下更多展示内容的空间。`star:7.5K`
 
+- [tooling][113] 快速开发web app
 
- - [tooling][113] 快速开发web app
+- [ua-device](https://github.com/fex-team/ua-device)史上最全面的userAgent解析库，百度FEX出品。
 
- - [ua-device](https://github.com/fex-team/ua-device)史上最全面的userAgent解析库，百度FEX出品。
+- [judge](https://github.com/hawx1993/judge)轻量级js判断类库
 
- - [judge](https://github.com/hawx1993/judge)轻量级js判断类库
- - [share.js](https://github.com/overtrue/share.js)一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣等。
+- [share.js](https://github.com/overtrue/share.js)一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣等。
 
-移动端
----
+### 移动端
 
- - [Swipe][114] 加速移动触摸滑块与硬件之间的转换。`star:5000`。
+- [Swipe][114] 加速移动触摸滑块与硬件之间的转换。`star:5000`。
 
- - [hammer.js][115] 一个支持多点触摸的手势库。`star:11000`
+- [hammer.js][115] 一个支持多点触摸的手势库。`star:11000`
 
- - [amDoc][116] 无线`Web`解决方案 - 文档规范指南
+- [amDoc][116] 无线`Web`解决方案 - 文档规范指南
 
- - [amazeui][117]  移动优先的跨屏前端框架。面向`HTML5`开发，使用`css3`做动画和交互。`star:4.1K`
+- [amazeui][117]  移动优先的跨屏前端框架。面向`HTML5`开发，使用`css3`做动画和交互。`star:4.1K`
 
- - [Zepto][118]  一款面向移动端设备、`API`与`jQuery`兼容的基础库。
+- [Zepto][118]  一款面向移动端设备、`API`与`jQuery`兼容的基础库。
 
- - [mui][119] 最接近原生APP体验的高性能框架 。`star:1.1K`（6.28更新）
+- [mui][119] 最接近原生APP体验的高性能框架 。`star:1.1K`
 
- - [Swiper][120]纯`javascript`打造的滑动特效插件，面向手机、平板电脑等移动终端。能实现触屏焦点图、触屏Tab切换、触屏多图切换等常用效果。`star:6K`(10月18更新)
+- [Swiper][120]纯`javascript`打造的滑动特效插件，面向手机、平板电脑等移动终端。能实现触屏焦点图、触屏Tab切换、触屏多图切换等常用效果。`star:6K`
 
- - [SUI-Mobile][121]由阿里巴巴国际UED前端出品的移动端UI库，轻量精美 `star:2K`(2016.1.14更新)
+- [SUI-Mobile][121]由阿里巴巴国际UED前端出品的移动端UI库，轻量精美 `star:2K`
 
- - [lib-flexible][122] 淘宝出品的移动端可伸缩布局方案。`star:1.3K+`（2016.1.14更新）
+- [lib-flexible][122] 淘宝出品的移动端可伸缩布局方案。`star:1.3K+`
 
+### Node.js相关
 
-Node.js相关
----------
+- [node-restify](https://github.com/restify/node-restify) node.js REST framework specifically meant for web service APIs。`star:5K+`
 
- - [node-restify](https://github.com/restify/node-restify) node.js REST framework specifically meant for web service APIs。`star:5K+`
+- [http://nodeframework.com/][123] 专门收集`node.js`的`web`框架的网站。其项目同样均托管在`github`上。
 
- - [http://nodeframework.com/][123] 专门收集`node.js`的`web`框架的网站。其项目同样均托管在`github`上。
+- [nodeclub][125] 使用 `Node.js` 和 `MongoDB` 开发的社区系统。`star:3000`
 
-![图片描述][124]
-<br>
+- [N-chat][126] 使用 `Express + Socket.IO` 搭建的多人聊天室 。`star:300`
 
- - [nodeclub][125] 使用 `Node.js` 和 `MongoDB` 开发的社区系统。`star:3000`
+- [N-blog][127] 使用 `Express + MongoDB` 搭建多人博客。`star:1800`
 
- - [N-chat][126] 使用 `Express + Socket.IO` 搭建的多人聊天室 。`star:300`
+- [node-inspector][128] 基于`Blink`开发者工具的`Node.js`调试器。`star:7000`
 
- - [N-blog][127] 使用 `Express + MongoDB` 搭建多人博客。`star:1800`
+- [node-lessons][129]：`Node.js`包教不包会。`star:2.5K`
 
- - [node-inspector][128] 基于`Blink`开发者工具的`Node.js`调试器。`star:7000`
+- [nodePPT][130]  使用`nodejs`写的网络幻灯片。可能是迄今为止最好的网页版`PPT`。`star:1.6K` [view demo][131]
 
- - [node-lessons][129]：`Node.js`包教不包会。`star:2.5K`
+- [hexo][132] 一款快捷，简单，强大的博客框架，基于`Nodejs`。`star:5.2K`
 
- - [nodePPT][130]  使用`nodejs`写的网络幻灯片。可能是迄今为止最好的网页版`PPT`。`star:1.6K` [view demo][131]
+- [koa][133] 下一代`Node.js`  Web 框架。由 `Express` 团队设计。`star:6.3K`
 
- - [hexo][132] 一款快捷，简单，强大的博客框架，基于`Nodejs`。`star:5.2K`
+- [awesome-nodejs][134] 关于`Nodejs` 包和资源的收集。`star:7K`
 
- - [koa][133] 下一代`Node.js`  Web 框架。由 `Express` 团队设计。`star:6.3K`
+- [connect][135] `Node`平台的中间件框架。`Express`就是基于`Connect`开发的。`star:5.6K`
 
- - [awesome-nodejs][134] 关于`Nodejs` 包和资源的收集。`star:7K`
+- [n][136] node版本管理，tj大神所写。`star:2.7K`
 
- - [connect][135] `Node`平台的中间件框架。`Express`就是基于`Connect`开发的。`star:5.6K`（6.29更新）
+- [nvm][137] node版本管理，通过bash脚本来管理。`star:7.5K`
 
- - [n][136] node版本管理，tj大神所写。`star:2.7K`
+### React相关
 
- - [nvm][137] node版本管理，通过bash脚本来管理。`star:7.5K`
+- [react-style][138] 是 `React.js` 可维护的样式组件
 
+- [react-component][139]  基于`reactjs`的组件。
 
+- [react-native][140] 一个用`React`构建`native apps`的框架。`star:15000`
 
-React相关
--------
+- [react-native-guide][141]  汇集了`react-native`学习资源与各类开源app。`star:850`
 
- - [react-style][138] 是 `React.js` 可维护的样式组件
+- [awesome-react][142] 关于`react`的工具，资源，视频的集合。`star:700`
 
- - [react-component][139]  基于`reactjs`的组件。
+- [Flux][143] 是一个`Facebook`开发的、利用单向数据流实现的应用架构，用于
+  `React`。`Flux`应用有三个主要的部分组成：调度程序、存储和视图（React 组件）。`star:6.8K`
 
- - [react-native][140] 一个用`React`构建`native apps`的框架。`star:15000`
+- [iscroll][144] 高性能，体积小，无外部依赖，跨平台的滚动组件 `star:6K`
 
- - [react-native-guide][141]  汇集了`react-native`学习资源与各类开源app。`star:850`
+- [react-tappable][145] Tappable component for React.
 
- - [awesome-react][142] 关于`react`的工具，资源，视频的集合。`star:700`
+- [react-native-lesson][146] `react-native`入门指南.`star:1.3K`
 
- - [Flux][143] 是一个`Facebook`开发的、利用单向数据流实现的应用架构，用于
-   `React`。`Flux`应用有三个主要的部分组成：调度程序、存储和视图（React 组件）。`star:6.8K`（6.28更新）
+- [react-web](https://github.com/taobaofed/react-web)用React Native构建 web app的框架。`star:1.2K+`
 
- - [iscroll][144] 高性能，体积小，无外部依赖，跨平台的滚动组件 `star:6K`（7.19更新）
+### 模板引擎
 
- - [react-tappable][145] Tappable component for React.(2016,1.4更新)
+- [Handlebars.js][153] 一个`js`语义模板库，能让你轻松高效的编写语义化模板。`star:8.6K`
 
- - [react-native-lesson][146] `react-native`入门指南.`star:1.3K`(2016,1.4更新)
- - [react-web](https://github.com/taobaofed/react-web)用React Native构建 web app的框架。`star:1.2K+`
+- [artTemplate][154]  性能卓越的 `js` 模板引擎。`star:1.7K`
 
-模板引擎
-----
+- [jade][155] 一款高性能简洁易懂的模板引擎，`Jade`是`Haml`的`Javascript`实现。`star:8.7K`
 
- - [Handlebars.js][153] 一个`js`语义模板库，能让你轻松高效的编写语义化模板。`star:8.6K`(6.29 update)
+- [ejs][156] tj大神写的嵌入javascript的模板引擎，主要用于Node
 
- - [artTemplate][154]  性能卓越的 `js` 模板引擎。`star:1.7K`
+### WEB编辑器
 
- - [jade][155] 一款高性能简洁易懂的模板引擎，`Jade`是`Haml`的`Javascript`实现。`star:8.7K`
+- [monaco-editor](https://github.com/Microsoft/monaco-editor) 微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮。 `star:9K` [demo](https://microsoft.github.io/monaco-editor/)
 
- - [ejs][156] tj大神写的嵌入javascript的模板引擎，主要用于Node
+- [editor](https://github.com/ory/editor) 下一代的高度定制化的流览器网页内容编辑器，是基于react开发。 `star:6K` [demo](https://editor.ory.am/?utm_source=github&utm_medium=header&utm_campaign=editor)
 
-浏览器兼容方案
--------
+- [tinymce](https://github.com/tinymce/tinymce) 支持图片在线处理，插件多，文档良好且齐全，功能强，编辑能力优秀，界面好看，推荐使用。 `star:5K` [demo](https://www.tinymce.com/)
 
- - [es6-shim][157] 提供兼容性垫片，使ES6能兼容于传统的`JavaScript`引擎。`star:1.5K`(7.15更新)
+- [ckeditor-4](https://github.com/ckeditor/ckeditor-dev) 界面极其优秀的一款，功能强大，编辑能力极强，基本和word差不多。`star:4K` [demo](https://ckeditor.com/ckeditor-4/)
 
- - [Modernizr][158] 用来检测浏览器功能支持情况的`JavaScript`库,可以检测18项`CSS3`功能以及40多项关于`HTML5`的功能。`star:16000`
+- [wangEditor][https://github.com/wangfupeng1988/wangEditor] 轻量简洁，最重要的是开源且中文文档齐全。设计的UI漂亮。`star:4K` [demo](http://www.wangeditor.com/)
 
- - [normalize.css][159] 一个可定制的 `CSS` 文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+。`star:17000`
+- [simditor][26] 团队协作工具 `Tower` 使用的富文本编辑器，样式好看，插件不多，基本满足需求，维护较好。`star:3K` [demo](http://simditor.tower.im/)
 
- - [html5shiv][160] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:6K`(7.15更新)
 
- - [css3please][161] 跨浏览器自动生成`css3`前缀
+- [ueditor][176] 中文文档，插件多，基本满足各种需求，类似贴吧中的回复界面。缺点：不再维护，文档极少，使用并不普遍，图片只能上传到本地服务器，如果需要上传到其他服务器需要改动源码，较为难办，加载速度慢。`star:3K` [demo](http://ueditor.baidu.com/website/onlinedemo.html)
 
- - [Babel][162] 是一款为了写下一代js的编译器，无需等待浏览器支持就可以使用新的语法。`star：8.3K` (7.29更新)
+- [kindeditor](https://github.com/kindsoft/kindeditor) 界面类似百度，效果很像，文档齐全但用例较少，使用还算方便。缺点：总感觉样子不是很好看，没有现代那种风格，还是老式的传统图标。。`star:1K` [demo](http://kindeditor.net/demo.php)
 
- - [f2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。`star:1K`
 
-高产大牛
-----
+### 浏览器兼容方案
 
- - [Evan You][163]  前端轻量级框架`MVVM`框架`vue.js`作者，前`Google`工程师。`followers:1.6K`
+- [html5shiv][150] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:9K`
 
- - [TJ Holowaychuk][164]  Luna 编程语言, `Koa, Express, Stylus, Cluster, Mocha, Jade, node-canvas, component` 等知名开源项目的创建和贡献者。 `followers:14.1K`
+- [es6-shim][157] 提供兼容性垫片，使ES6能兼容于传统的`JavaScript`引擎。`star:1.5K`
 
- - [PaulIrish][165] 著名的前端开发工程师，同时他也是`Chrome`开发者关系团队成员，jQuery团队成员，`Modernizr、Yeoman、CSS3 Please`和`HTML5 Boilerplate`的`lead developer`。`followers:15.7K`
+- [Modernizr][158] 用来检测浏览器功能支持情况的`JavaScript`库,可以检测18项`CSS3`功能以及40多项关于`HTML5`的功能。`star:16000`
 
- - [Mike Bostock][166] 知名可视化库 `D3.js`的主要作者。`followers:8.3K`
+- [normalize.css][159] 一个可定制的 `CSS` 文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+。`star:17000`
 
- - [Nicolas Gallagher][167] `Normalize.css` 作者。`followers:3.6K`
+- [html5shiv][160] 主要解决`HTML5`提出的新的元素不被`IE6-9`识别。`star:6K`
 
+- [css3please][161] 跨浏览器自动生成`css3`前缀
 
- - [司徒正美][168] 前端迷你`MVVM`框架`Avalon`作者。`followers:2.1K`
+- [Babel][162] 是一款为了写下一代js的编译器，无需等待浏览器支持就可以使用新的语法。`star：8.3K`
 
- - [sindresorhus](https://github.com/sindresorhus)github 排名第一的大神
+- [f2etest](https://github.com/alibaba/f2etest) F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。`star:1K`
 
-其他
---
+### 高产大牛
 
- - [javascript-style-guide][169] 最合理的使用`javascript`的方法。 `star:18000`
+- [Evan You][163]  前端轻量级框架`MVVM`框架`vue.js`作者，前`Google`工程师。`followers:1.6K`
 
- - [Mars][170] 腾讯移动`Web`前端知识库。`star:1600`
+- [TJ Holowaychuk][164]  Luna 编程语言, `Koa, Express, Stylus, Cluster, Mocha, Jade, node-canvas, component` 等知名开源项目的创建和贡献者。 `followers:14.1K`
 
- - [brackets][171] 一款使用 HTML，CSS，JavaScript 创建的开源的针对 Web 开发的编辑器。`star:23000`
+- [PaulIrish][165] 著名的前端开发工程师，同时他也是`Chrome`开发者关系团队成员，jQuery团队成员，`Modernizr、Yeoman、CSS3 Please`和`HTML5 Boilerplate`的`lead developer`。`followers:15.7K`
 
- - [Ghost][172] `Node.js`开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客。`star:16000`
+- [Mike Bostock][166] 知名可视化库 `D3.js`的主要作者。`followers:8.3K`
 
- - [io.js][173]  从`NodeJS`里分离出来的一条分支。`star:13000`
+- [Nicolas Gallagher][167] `Normalize.css` 作者。`followers:3.6K`
 
- - [2048 游戏][174] [view demo][175] `star:7000`
+- [司徒正美][168] 前端迷你`MVVM`框架`Avalon`作者。`followers:2.1K`
 
- - [ueditor][176] 百度前端团队出品的富本文编辑器。`star:1.1K`
+- [sindresorhus](https://github.com/sindresorhus)github 排名第一的大神
 
- - [electron](https://github.com/electron/electron) 使用js,css,html构建跨平台的桌面应用。`star:32K+`
+### 其他
 
- - [hosts](https://github.com/racaljk/hosts) 最新可用的google hosts文件。`star:5.4K+`
+- [javascript-style-guide][169] 最合理的使用`javascript`的方法。 `star:18000`
 
+- [Mars][170] 腾讯移动`Web`前端知识库。`star:1600`
 
-优秀开源组织
-----
+- [brackets][171] 一款使用 HTML，CSS，JavaScript 创建的开源的针对 Web 开发的编辑器。`star:23000`
 
- - [AlloyTeam][177] 腾讯 `Web` 前端团队。
+- [Ghost][172] `Node.js`开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客。`star:16000`
 
+- [io.js][173]  从`NodeJS`里分离出来的一条分支。`star:13000`
 
- - [fex-team][178] 百度前端团队。
+- [2048 游戏][174] [view demo][175] `star:7000`
 
- - [amfe](https://github.com/amfe)阿里前端团队，有很多高质量项目和优秀文章
+- [electron](https://github.com/electron/electron) 使用js,css,html构建跨平台的桌面应用。`star:32K+`
 
+- [hosts](https://github.com/racaljk/hosts) 最新可用的google hosts文件。`star:5.4K+`
+
+### 优秀开源组织
+
+- [AlloyTeam][177] 腾讯 `Web` 前端团队。
+
+- [fex-team][178] 百度前端团队。
+
+- [amfe](https://github.com/amfe)阿里前端团队，有很多高质量项目和优秀文章
 
 >说明
 
 本篇文章会持续更新，欢迎star，可点击上面的watch下拉按钮，选中watching，以后更新会有提醒。
-
-
 
   [1]: /img/3.jpeg
   [2]: /img/2.jpeg
