@@ -10,6 +10,10 @@
 
   ![图片描述](/img/7.jpg)
 
+- [docschina](https://docschina.org/) 印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍。
+
+  ![图片描述](/img/8.jpg)
+
 - [microjs](http://microjs.com) 该网站的资源都托管到了`github`，`microjs.com`是一个可以让你选择微型的`js`类库的网站，该网站里的`js`库都是压缩后不大于5KB的，非常实用
 
   ![图片描述][1]
@@ -17,9 +21,6 @@
 - [plainjs](https://plainjs.com) 该仓库都是用原生`js`写的插件和组件，很实用。里面的项目也都托管到了github
 
   ![图片描述][2]
-
-- [docschina](https://docschina.org/) 印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍。
-  ![图片描述](/img/8.jpg)
 
 ## 目录
 
@@ -176,21 +177,21 @@
 
 - [zepto.fullpage][60] 专注于移动端的全屏滚动插件。`star:510`
 
-- [fullPage.js][61] pc端的全屏滚动插件。 `star:9500` [view demo][62]
+- [fullPage.js][61] pc端的全屏滚动插件。 `star:9500` [demo][62]
 
-- [onepage-scroll][63] 可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本。[View demo][64] 。`star:7700`
+- [onepage-scroll][63] 可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本。[demo][64] 。`star:7700`
 
-- [slick][65] 一款完全响应式的 `jQuery` 图片滚动插件，能够根据容器自动适应宽度。`star:10000` [view demo][66]
+- [slick][65] 一款完全响应式的 `jQuery` 图片滚动插件，能够根据容器自动适应宽度。`star:10000` [demo][66]
 
-- [superslides][67] 致力于解决网站大部分特效展示问题。网站上常用的“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等只需要一个`SuperSlide`即可解决！ [view demo][68] `star:1100`
+- [superslides][67] 致力于解决网站大部分特效展示问题。网站上常用的“焦点图/幻灯片”“Tab标签切换”“图片滚动”“无缝滚动”等只需要一个`SuperSlide`即可解决！ [demo][68] `star:1100`
 
 - [jQuery-One-Page-Nav][69] 当用户滚动网页时，实现平滑滚动和智能导航。`star:1100`
 
-- [slider][70] 一个`jquery`完全开源的`JavaScript`代码库，用户可以开发，调试和深度定制自己的滑块。`star:850` [view demo][71]
+- [slider][70] 一个`jquery`完全开源的`JavaScript`代码库，用户可以开发，调试和深度定制自己的滑块。`star:850` [demo][71]
 
 - [github-hovercard][72] github 鼠标悬停显示用户，仓库等摘要信息。
 
-- [onepage-scroll][73] 一款带有背景视觉差效果的`jQuery`整页滚动特效插件。star：8K [view demo][74]
+- [onepage-scroll][73] 一款带有背景视觉差效果的`jQuery`整页滚动特效插件。star：8K [demo][74]
 
 - [justlazy.js][75] 轻量级js图片延迟加载插件。
 
@@ -200,11 +201,11 @@
 
 - [polymer][77] `web`组件构建框架。一套以“一切皆组件、最少化代码量、最少框架限制”为设计理念的`Web UI`框架。 `star:9900`
 
-- [impress.js][78] 创建令人兴奋的演示。使用`CSS3`的转换和过渡，这个库允许你创建令人印象深刻的演示文稿。[view demo][79]。`star:24300`
+- [impress.js][78] 创建令人兴奋的演示。使用`CSS3`的转换和过渡，这个库允许你创建令人印象深刻的演示文稿。[demo][79]。`star:24300`
 
 - [ionic][80] 先进的`HTML5` 移动端开发框架。帮助开发者使用HTML5, CSS3和`js`做出不可思议的`hybrid app`。`star:17000`
 
-- [reveal.js][81] 基于`CSS3`的3D幻灯片工具。能够制作绚丽的演示文稿并生成`HTML`格式，将它发布到web上。`star:21500` [view demo][82]
+- [reveal.js][81] 基于`CSS3`的3D幻灯片工具。能够制作绚丽的演示文稿并生成`HTML`格式，将它发布到web上。`star:21500` [demo][82]
 
 - [pure.css][83] 一组很小的，响应式的`css`组件，你可以在网页的项目上到处使用。`star:12000`
 
@@ -220,7 +221,7 @@
 
 - [togetherjs][89] 由`Mozilla`打造的一款可以给网站添加实时协作功能的`JavaScript`库。`star:5K`
 
-- [HTML.js][90] 轻量级的简化与`DOM`操作的js库。[view demo][91] `star:1.5K`
+- [HTML.js][90] 轻量级的简化与`DOM`操作的js库。[demo][91] `star:1.5K`
 
 - [MEAN.JS][92] 全栈式javascript，使用`MongoDB, Express,
    AngularJS` 和 `Node.js`。`star:2.2K`
@@ -230,7 +231,7 @@
 - [JavaScript-Load-Image][94] 一个`js`加载和转换图像文件的库。 `star:1.2K` [view
   demo][95]
 
-- [progress.js][96] 一个 `js` 和 `CSS3`的库，帮助开发人员为网页上的每个对象创建和管理进度条效果。`star:1.6K` [view demo][97]
+- [progress.js][96] 一个 `js` 和 `CSS3`的库，帮助开发人员为网页上的每个对象创建和管理进度条效果。`star:1.6K` [demo][97]
 
 - [foundation][98] 号称世界上最先进的响应式前端框架，也是一款`Mobile First`的框架。`star:21K`
 
@@ -244,7 +245,7 @@
   组件。`star:8.8K`
 
 - [Pikaday][103] 是一个 `JavaScript` 日期选择器，特点是轻量级、无依赖和模块化的
-  `CSS`。`star:2.8K` [view demo][104]
+  `CSS`。`star:2.8K` [demo][104]
 
 - [vuejs][106] 用于构建交互式的 Web 界面的库。它提供了 `MVVM` 数据绑定和一个可组合的组件系统,具有简单、灵活的 API。`star:6K`
 
@@ -305,7 +306,7 @@
 
 - [node-lessons][129]：`Node.js`包教不包会。`star:2.5K`
 
-- [nodePPT][130]  使用`nodejs`写的网络幻灯片。可能是迄今为止最好的网页版`PPT`。`star:1.6K` [view demo][131]
+- [nodePPT][130]  使用`nodejs`写的网络幻灯片。可能是迄今为止最好的网页版`PPT`。`star:1.6K` [demo][131]
 
 - [hexo][132] 一款快捷，简单，强大的博客框架，基于`Nodejs`。`star:5.2K`
 
@@ -354,9 +355,9 @@
 
 ### WEB编辑器
 
-- [monaco-editor](https://github.com/Microsoft/monaco-editor) 微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮。 `star:9K` [demo](https://microsoft.github.io/monaco-editor/)
+- [monaco-editor](https://github.com/Microsoft/monaco-editor) 微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮。 `star:9K` [demo](https://microsoft.github.io/monaco-editor/)
 
-- [editor](https://github.com/ory/editor) 下一代的高度定制化的流览器网页内容编辑器，是基于react开发。 `star:6K` [demo](https://editor.ory.am/?utm_source=github&utm_medium=header&utm_campaign=editor)
+- [editor](https://github.com/ory/editor) 下一代的高度定制化的流览器网页内容编辑器，是基于react开发。 `star:6K` [demo](https://editor.ory.am/?utm_source=github&utm_medium=header&utm_campaign=editor)
 
 - [tinymce](https://github.com/tinymce/tinymce) 支持图片在线处理，插件多，文档良好且齐全，功能强，编辑能力优秀，界面好看，推荐使用。 `star:5K` [demo](https://www.tinymce.com/)
 
@@ -418,7 +419,7 @@
 
 - [io.js][173]  从`NodeJS`里分离出来的一条分支。`star:13000`
 
-- [2048 游戏][174] [view demo][175] `star:7000`
+- [2048 游戏][174] [demo][175] `star:7000`
 
 - [electron](https://github.com/electron/electron) 使用js,css,html构建跨平台的桌面应用。`star:32K+`
 
