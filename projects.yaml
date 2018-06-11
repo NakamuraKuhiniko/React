@@ -18,12 +18,12 @@
     url: http://microjs.com
     describe: 可以让你选择微型的js类库的网站，该网站里的库都是压缩后不大于5KB的，非常实用，该网站的资源都托管到了github
     github: false
-    image: 3.jpg
+    image: 3.jpeg
   plainjs:
     url: https://docschina.org
     describe: 该仓库都是用原生js写的插件和组件，非常实用，该网站的资源都托管到了github
     github: false
-    image: 2.jpg
+    image: 2.jpeg
 
 综合/资源:
   dypsilon/frontend-dev-bookmarks: 一个巨大的前端开发资源清单

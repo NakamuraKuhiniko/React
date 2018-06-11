@@ -33,9 +33,9 @@ const buildProjectItem = (options) => {
 
   // 格式
   readme += `- [${name}](${github ? `https://github.com/${prokey}` : url}) ${describe} ${
-    demo ? `[view](${demo})` : '' } ${
-    starCount ? '`star ${starCount}`' : '' } ${
     recommand ? '`recommand`' : '' } ${
+    starCount ? `\`star: ${starCount}\`` : '' } ${
+    demo ? `[view](${demo})` : '' } ${
     image ? `\n\n![image](${paths.githubImgResouce}/src/img/${image})` : '' }  \n\n`;
 }
 
