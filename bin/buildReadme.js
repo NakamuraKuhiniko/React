@@ -4,9 +4,9 @@ const fs = require('fs');
 
 const paths = require('./paths');
 
-let readme = `# GitHub 值得收藏的前端项目
+let readme = `# [GitHub 值得收藏的前端项目](https://github.com/CareyToboo/github-FE-project)
 
-> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，版权归原作者所有。本篇文章会持续更新，欢迎star，可点击上面的watch下拉按钮，选中watching，以后更新会有提醒。
+> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。
 
 `;
 
