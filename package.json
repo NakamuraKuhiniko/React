@@ -8,12 +8,15 @@
   "license": "MIT",
   "scripts": {
     "build:rdm": "node bin/cli build:rdm",
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build --detailed-report --no-source-maps --no-cache --public-url ./ src/index.html ",
     "stars": "node bin/cli stars"
   },
   "devDependencies": {
     "axios": "^0.18.0",
     "js-yaml": "^3.11.0",
     "node-schedule": "^1.3.0",
+    "parcel-bundler": "^1.8.1",
     "shelljs": "^0.8.2"
   }
 }

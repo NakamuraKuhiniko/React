@@ -36,7 +36,7 @@ const buildProjectItem = (options) => {
     recommand ? '`recommand`' : '' } ${
     starCount ? `\`star: ${starCount}\`` : '' } ${
     demo ? `[view](${demo})` : '' } ${
-    image ? `\n\n![image](${paths.githubImgResouce}/src/img/${image})` : '' }  \n\n`;
+    image ? `\n\n![image](${paths.githubImgResouce}/${image})` : '' }  \n\n`;
 }
 
 module.exports = projects => {
