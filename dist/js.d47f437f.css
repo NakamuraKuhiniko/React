@@ -9062,3 +9062,45 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     margin-top: 1.2rem;
   }
 }
+.fr {
+  float: right;
+}
+.pa {
+  position: absolute;
+}
+.pf {
+  position: fixed;
+}
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-flow,
+.mult-text-flow,
+.logo-icon {
+  background: url("logo-w.73d4fce4.png") no-repeat;
+  background-size: contain;
+}
+.projects-item .card {
+  cursor: pointer;
+}
+.projects-item .card-title {
+  padding: 10px 0 0 20px;
+}
+.projects-item .card-content {
+  padding-top: 10px;
+}
+.projects-item .star-tip {
+  color: #666;
+  padding-top: 10px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.brand-logo {
+  padding-left: 20px !important;
+}
+.brand-logo .logo-icon {
+  width: 28px;
+  height: 31px;
+  margin-right: 0px;
+}

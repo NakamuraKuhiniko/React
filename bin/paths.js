@@ -3,6 +3,6 @@ module.exports = {
   githubApi: 'https://api.github.com',
   projects: './projects.yaml',
   build: './README.md',
-  stars: './.cache/stars.json',
+  stars: './stars.json',
   log: './log/star.log'
 };
