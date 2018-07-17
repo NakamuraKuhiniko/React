@@ -1,7 +1,9 @@
 export const header = `
 <nav>
   <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><span class="inline logo-icon"></span><span class="inline">前端资源收集</span></a>
+    <a href="https://github.com/CareyToboo" target="_blank" class="brand-logo">
+      <span class="inline logo-icon"></span><span class="inline">前端资源收集</span>
+    </a>
   </div>
 </nav>
 `;
