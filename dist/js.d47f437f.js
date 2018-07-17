@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({12:[function(require,module,exports) {
+})({13:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],10:[function(require,module,exports) {
+},{}],11:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,13 +159,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":12}],8:[function(require,module,exports) {
+},{"./bundle-url":13}],8:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../fonts/font.woff2":[["font.cdcf09bf.woff2",11],11],"_css_loader":10}],9:[function(require,module,exports) {
+},{"./../fonts/font.woff2":[["font.cdcf09bf.woff2",12],12],"_css_loader":11}],9:[function(require,module,exports) {
 var define;
 var global = arguments[3];
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
@@ -12431,19 +12431,19 @@ $jscomp.polyfill = function (e, r, p, m) {
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../img/logo-w.png":[["logo-w.73d4fce4.png",20],20],"_css_loader":10}],6:[function(require,module,exports) {
+},{"./../img/logo-w.png":[["logo-w.73d4fce4.png",10],10],"_css_loader":11}],6:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var header = exports.header = "\n<nav>\n  <div class=\"nav-wrapper\">\n    <a href=\"#!\" class=\"brand-logo\"><span class=\"inline logo-icon\"></span><span class=\"inline\">\u524D\u7AEF\u8D44\u6E90\u6536\u96C6</span></a>\n    <ul class=\"right hide-on-med-and-down\">\n      <li><a href=\"\"><i class=\"material-icons\">search</i></a></li>\n      <li><a href=\"\"><i class=\"material-icons\">view_module</i></a></li>\n      <li><a href=\"\"><i class=\"material-icons\">refresh</i></a></li>\n      <li><a href=\"\"><i class=\"material-icons\">more_vert</i></a></li>\n    </ul>\n  </div>\n</nav>\n";
+var header = exports.header = "\n<nav>\n  <div class=\"nav-wrapper\">\n    <a href=\"#!\" class=\"brand-logo\"><span class=\"inline logo-icon\"></span><span class=\"inline\">\u524D\u7AEF\u8D44\u6E90\u6536\u96C6</span></a>\n  </div>\n</nav>\n";
 
-var footer = exports.footer = "\n<div  class=\"row page-footer\" >\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col l6 s12\">\n        <h5 class=\"white-text\">Footer Content</h5>\n        <p class=\"grey-text text-lighten-4\">You can use rows and columns here to organize your footer content.</p>\n      </div>\n      <div class=\"col l4 offset-l2 s12\">\n        <h5 class=\"white-text\">Links</h5>\n        <ul>\n          <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 1</a></li>\n          <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 2</a></li>\n          <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 3</a></li>\n          <li><a class=\"grey-text text-lighten-3\" href=\"#!\">Link 4</a></li>\n        </ul>\n      </div>\n    </div>\n  </div>\n  <div class=\"footer-copyright\">\n    <div class=\"container\">\n    \xA9 2014 Copyright Text\n    <a class=\"grey-text text-lighten-4 right\" href=\"#!\">More Links</a>\n    </div>\n  </div>\n</div>\n";
+var footer = exports.footer = "\n<div class=\"page-footer\" ></div>\n";
 
 var siderMenu = exports.siderMenu = "\n<ul class=\"collection pf\">\n  <% for (let i = 0; i < this.category.length; i++) { const category = this.category[i]; %>\n    <a href=\"#<% category %>\" class=\"collection-item\"><span class=\"title\"><% category %></span></a>\n  <% } %>\n</ul>\n";
 
-var projects = exports.projects = "\n<% for (let categoryKey in this.projects) {  const category = this.projects[categoryKey]; %>\n  <div id=\"<% categoryKey %>\" class=\"row scrollspy \">\n    <p class=\"pushpin\"> <% categoryKey %> </p>\n    <% for (let prokey in category) { const info = category[prokey]; %>\n      <div class=\"col s4 projects-item\">\n        <div class=\"card\" style=\"height:150px;\" onclick=\"javascript:;window.open('<% info.url || (\"https://github.com/\" + prokey) %>')\">\n          <div class=\"card-title\">\n            <span><% prokey.split('/')[1] || prokey %></span>\n            <span class=\"star-tip fr\"><% this.stars[prokey] ? ('star:' + this.stars[prokey]) : '' %></span>\n          </div>\n          <div class=\"card-stacked\">\n            <div class=\"card-content\">\n              <div><% info.describe || info %></div>\n            </div>\n          </div>\n        </div>\n      </div>\n    <% } %>\n  </div>\n<% } %>\n";
+var projects = exports.projects = "\n<% for (let categoryKey in this.projects) {  const category = this.projects[categoryKey]; %>\n  <div id=\"<% categoryKey %>\" class=\"row scrollspy \">\n    <p class=\"pushpin\"> <% categoryKey %> </p>\n    <% for (let prokey in category) { const info = category[prokey]; %>\n      <div class=\"col s4 projects-item\">\n        <div class=\"card\" style=\"height:150px;\" onclick=\"javascript:;window.open('<% info.url || (\"https://github.com/\" + prokey) %>')\">\n          <div class=\"card-title\">\n            <span><% prokey.split('/')[1] || prokey %></span>\n            <span class=\"star-tip fr\"><% this.stars[prokey] ? ('star:' + this.stars[prokey]) : '' %></span>\n          </div>\n          <div class=\"card-stacked\">\n            <div class=\"card-content\">\n              <div class=\"mult-text-flow\"><% info.describe || info %></div>\n            </div>\n          </div>\n        </div>\n      </div>\n    <% } %>\n  </div>\n<% } %>\n";
 },{}],7:[function(require,module,exports) {
 'use strict';
 
@@ -12474,132 +12474,157 @@ var template = exports.template = function template(tpl, data) {
   return new Function(code.replace(/[\r\t\n]/g, '')).apply(data);
 };
 },{}],3:[function(require,module,exports) {
-module.exports = {"优秀网站": {codepen: {url: "https:\u002F\u002Fcodepen.io", describe: "一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用", github: false, image: "6.jpg"}, codrops: {url: "http:\u002F\u002Fwww.codrops.com", describe: "一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https:\u002F\u002Fgithub.com\u002Fcodrops)中", github: false, image: "7.jpg"}, docschina: {url: "https:\u002F\u002Fdocschina.org", describe: "印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍", github: false, image: "8.jpg"}, microjs: {url: "http:\u002F\u002Fmicrojs.com", describe: "可以让你选择微型的js类库的网站，该网站里的库都是压缩后不大于5KB的，非常实用，该网站的资源都托管到了github", github: false, image: "3.jpeg"}, plainjs: {url: "https:\u002F\u002Fdocschina.org", describe: "该仓库都是用原生js写的插件和组件，非常实用，该网站的资源都托管到了github", github: false, image: "2.jpeg"}}, "综合/资源": {"dypsilon/frontend-dev-bookmarks": "一个巨大的前端开发资源清单", "qiu-deqing/FE-interview": "收集的前端面试题和答案", "helloqingfeng/Awsome-Front-End-learning-resource": "github最全的前端资源汇总仓库", "hoosin/mobile-web-favorites": "移动端H5开发经验、资源、以及踩坑汇总", "AutumnsWind/Front-end-tutorial": "最全的资源教程-前端涉及的所有知识体系", "sorrycc/awesome-javascript": "一系列很棒的javascript库、插件、资源", "foru17/front-end-collect": "作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者", "JacksonTian/fks": "前端技能汇总，包含前端知识架构，后端知识，运维知识，书籍推荐等", "airbnb/javascript": "最合理的写js的姿势", "AlloyTeam/Mars": "腾讯移动web前端知识库"}, "样式/UI/css": {"Dogfalo/materialize": {describe: "materialize 是material design一套轻量级的纯CSS框架。material design 是Goole提出的一套UI设计方案，并应Goole用于所有产品中", demo: "https:\u002F\u002Fmaterializecss.com"}, "Semantic-Org/Semantic-UI": {describe: "让你使用任何html标签 来表现ui控件，这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架"}, "uikit/uikit": {describe: "一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式html5框架"}, "primer/primer": {describe: "github站点所使用的一套css框架"}, "weui/weui": {describe: "为微信web服务量身设计的一套ui框架"}, "yahoo/pure": "一组很小的，响应式的css组件，你可以在网页的项目上到处使用", "necolas/normalize.css": "一个可定制的css文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+"}, "构建工具/预编译": {"parcel-bundler/parcel": {recommand: true, describe: "一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具"}, "webpack/webpack": {recommand: true, describe: "一个模块打包工具，你可以使用webpack管理你的模块依赖，并编绎输出模块们所需的静态文件"}, "gulpjs/gulp": "基于node.js流构建系统，只有原生几个api，和庞大的插件生态，使用非常简单", "yeoman/yo": {demo: "http:\u002F\u002Fyeoman.io\u002F", describe: "基于node的一个强健的项目脚手架工具，可以非常方便的构建一个初始项目，有各种类型的项目的脚手架"}, "Microsoft/TypeScript": {recommand: true, demo: "https:\u002F\u002Fwww.tslang.cn\u002Fdocs\u002Fhandbook\u002Fbasic-types.html", describe: "有类型的js预编译语言，非常强大的预编译与代码报错提示，赋予了JS构建大型项目的可能"}, "babel/babel": {recommand: true, describe: "是一款为了写下一代js的编译器，无需等待浏览器支持就可以使用各种ES6，ES7新的语法"}, "stylus/stylus": {recommand: true, describe: "富有表现力的，健壮的css预编译语言, 除了代码简洁，可读性强外，函数功能非常强大，可与js混合使用，实现动态css编程"}, "less/less.js": {describe: "轻量级的，动态CSS预编语言，具有CSS所有特性，并提供了动态编程方式编写CSS代码。也是各大UI框架所选用的样式语言，比如bootstrap,ant design等"}, "sass/node-sass": {describe: "动态CSS预编语言, 并有拥有强大sass compass的生态圈，可以直接引入并使用，sass是由ruby编写的，node-sass是node重构版本，方便npm直接使用"}, "postcss/postcss": {recommand: true, describe: "用js插件来对css样式文件，进行转换、预编译等操作，并且实现了模块化，支持非常多插架"}}, "测试/工具": {"mochajs/mocha": "一个简单、灵活有趣的 javascript 测试框架，用于 nodejs 和浏览器上的 js 应用测试", "n1k0/casperjs": "一个基于 phantomjs 的开源导航脚本和测试工具", "karma-runner/karma": "自动化完成单元测试，允许你在多个浏览器里执行js代码。让你的 tdd 变得简单，快速，有趣", "jasmine/jasmine": "是一个简易的 js 单元测试框架， 用来测试 javascript 代码", "chaijs/chai": {recommand: true, describe: "一个针对 nodejs 和浏览器的 tdd (测试驱动开发)\u002F bdd(行为驱动开发)的断言框架，可与任何 javascript 测试框架集成"}, "zmoazeni/csscss": "css代码冗余分析工具，用于分析css存在的冗余", "caolan/async": "一个工具模块，提供了直接而强大的 javascript 异步功能。虽然是为 nodejs 设计的，但是它也可以直接在浏览器中使用", "yaniswang/HTMLHint": "html 静态代码分析工具，可以集成到代码编辑器或编译系统中", "eslint/eslint": {recommand: true, describe: "js 静态代码分析工具，可以帮你检测 js 语法错误和潜在的问题，可以集成到代码编辑器或编译系统中"}, "stylelint/stylelint": {recommand: true, describe: "分析和优化你的css样式表的工具，支持多种类型的css文件"}, "SimenB/stylint": "由于 stylus 官方团队并没有实现 .styl 文件检查工具，第三方实现了sytlus文件的代码风格检查工具", "WickyNilliams/headroom.js": "是强大的基准测试库，几乎适用于所有js平台。支持high-resolution定时器，并返回重要的统计结果"}, "canvas/数据可视化": {"mbostock/d3": {describe: "一个基于数据操作文档的js数据可视化框架，最流行的数据可视化库之一"}, "apache/incubator-echarts": {describe: "基于canvas的纯js图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表"}, "nnnick/Chart.js": {describe: "使用canvas标签的简易html5图表"}, "masayuki0812/c3": {describe: "一个基于 d3.js 的可重用 javascript 图表库，几乎零学习曲线"}, "antvis/g2": {describe: "是一套基于可视化编码的图形语法，以数据驱动，具有高度的易用性和扩展性，可定制的颗粒度极细，相比项目echart大而全且易用的图表库，这个库会让你有不一样的体验，且官方提供了[g2-react](https:\u002F\u002Fgithub.com\u002Fantvis\u002Fg2-react)的react封装包"}, "soulwire/sketch.js": {describe: "跨平台javascript创意编码框架，gzip压缩后仅有2kb"}, "ecomfe/zrender": {describe: "一个轻量级的canvas类库，mvc封装，数据驱动，提供类dom事件模型，让canvas绘图大有不同"}, "highcharts/highcharts": {describe: "基于svg的javascript图表框架"}, "antvis/g6": {describe: "是一个由纯 JavaScript 编写的关系图基础技术框架。开发者能基于 G6 进行关系图的分析视图和编辑视图进行快速的二次开发"}}, "动画": {"daneden/animate.css": "一个跨浏览器的css动画库，实现了多种css3动画效果，简单易用易上手", "juliangarnier/anime": "极小的js动画引擎，支持 css3、svg 的动画效果，能编写出各种复杂动画效果，gzip后6K左右", "visionmedia/move.js": "极小的js库,支持css3的动画效果,非常简单优雅", "CreateJS/TweenJS": "是一个简单但强大的js动画库，createjs 套件的一部分", "tictail/bounce.js": "一个用于制作漂亮的css3关键帧动画的js库，使用其特有的方式生成的动画效果", "tweenjs/tween.js": "一款可生成平滑动画效果的js动画库，允许你以平滑的方式修改元素的属性值，它可以通过设置生成各种类似css3的动画效果", "wagerfield/parallax": "轻量级的的视差引擎，能对智能设备的方向作出反应", "julianshapiro/velocity": "是一款和jQuery的 $.animate() 有相同API的动画引擎，很适合移动端的动画开发，还打包了颜色动画，转换，循环，easing效果，类动画、滚动等功能"}, "插件": {"iamjoel/front-end-plugins": "前端常用插件汇总", "stefanbuck/awesome-browser-extensions-for-github": "收集关于github上优秀的浏览器插件，非常实用", "videojs/video.js": "开源的html5和flash视频播放器，支持自定义进度条、按钮以及工具栏的底色", "alvarotrigo/fullPage.js": "pc端的全屏滚动插件", "peachananr/onepage-scroll": "可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本", "nicinabox/superslides": "致力于解决网站大部分特效展示问题，网站上常用的焦点图\u002F幻灯片，tab标签切换，图片滚动，无缝滚动等", "Justineo/github-hovercard": "github 鼠标悬停显示用户，仓库等摘要信息"}, "框架、库和组件": {"Polymer/polymer": "以一切皆组件、最少化代码量、最少框架限制为设计理念的web组件构建框架", "bartaz/impress.js": "创建令人兴奋的演示。使用css3的转换和过渡，这个库允许你创建令人印象深刻的演示文稿", "hakimel/reveal.js": "基于css3的3D幻灯片工具，能够制作绚丽的演示文稿并生成html格式，将它发布到web上", "ksky521/nodePPT": "使用nodejs写的网络幻灯片，可能是迄今为止最好的网页版ppt", "mrdoob/three.js": "是js编写的webgl第三方库，提供了非常多的3D显示功能", "NUKnightLab/TimelineJS": "轻松制作时间轴", "isagalaev/highlight.js": "js语法高亮，既可以运行在浏览器端也可以运行在服务端", "tj/commander.js": "nodejs命令行工具，可用于制作那种node命令行终端应用", "mozilla/togetherjs": "由Mozilla打造的一款可以给网站添加实时协作功能的js库", "nbubna/HTML": "轻量级的简化与dom操作的js库", "sofish/wechat.js": "微信相关的 js 操作：分享、网络、菜单", "blueimp/JavaScript-Load-Image": "一个js加载和转换图像文件的库", "usablica/progress.js": "一个js的库，帮助开发人员为网页上的每个对象创建和管理进度条效果", "zurb/foundation": "号称世界上最先进的响应式前端框架，也是一款移动端优先的框架", "andrewplummer/Sugar": "扩展了现有的js对象的方法，让你可以用更少的代码做更多的事情", "tastejs/todomvc": "帮你挑选一款mv*框架，它使用不同的最流行的mv*框架实现了一个相同的todo应用", "dbushell/Pikaday": "是一个js日期选择器，特点是轻量级、无依赖和模块化的css", "fex-team/webuploader": "一个简单的以html5为主，flash为辅的现代文件上传组件。支持大文件分片并发上传，极大的提高了文件上传效率", "WickyNilliams/headroom.js": "是一个轻量级、纯js组件，用来隐藏或展现页面上的元素，为你的页面留下更多展示内容的空间", "fex-team/ua-device": "史上最全面的userAgent解析库，百度FEX出品", "overtrue/share.js": "一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣等"}, "移动端": {"ftlabs/fastclick": "触摸UI上的消除点击延迟js库", "muicss/mui": "最接近原生APP体验的高性能框架", "sdc-alibaba/SUI-Mobile": "由阿里巴巴国际UED前端出品的移动端UI库，轻量精美", "allmobilize/amazeui": "移动优先的跨屏前端框架。面向html5开发，使用css3做动画和交互", "driftyco/ionic": "先进的html5移动端开发框架，帮助开发者使用HTML5, css和js做出不可思议的hybrid app", "yanhaijing/zepto.fullpage": "专注于移动端的全屏滚动插件", "amfe/lib-flexible": "淘宝出品的移动端可伸缩布局方案", "thebird/swipe": "加速移动触摸滑块与硬件之间的转换", "hammerjs/hammer.js": "一个支持多点触摸的手势库", "madrobby/zepto": "一款面向移动端设备、api与jquery兼容的基础库", "nolimits4web/Swiper": "纯js打造的滑动特效插件，面向手机、平板电脑等移动终端。能实现触屏焦点图、触屏Tab切换、触屏多图切换等常用效果"}, "Node.js相关": {"sindresorhus/awesome-nodejs": "关于node包和资源的收集", "alsotang/node-lessons": "nodejs包教不包会", "youyudehexie/node123": "node.js中文资料导航", "meteor/meteor": "快速", "TryGhost/Ghost": "nodejs开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客", "NodeBB/NodeBB": "基于node编写的现代化社区论坛", "hexojs/hexo": "一款快捷，简单，强大的博客框架", "cnodejs/nodeclub": "使用nodejs和mongodb开发的社区系统", "nswbmw/N-chat": "使用express和socket搭建的多人聊天室", "electron/electron": "使用js,css,html构建跨平台的桌面应用"}, "模板引擎": {"pugjs/pug": "基于nodejs的强壮的、优雅的功能强大的模版引擎，相当简洁", "wycats/handlebars.js": "一个js语义模板库，能让你轻松高效的编写语义化模板", "aui/artTemplate": "性能卓越的js模板引擎", "tj/ejs": "tj大神写的嵌入javascript的模板引擎"}, "WEB编辑器": {"Microsoft/monaco-editor": {demo: "https:\u002F\u002Fmicrosoft.github.io\u002Fmonaco-editor", describe: "微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮，功能相当齐全，制作代码编辑器首选"}, "ory/editor": {demo: "https:\u002F\u002Feditor.ory.am\u002F?utm_source=github&utm_medium=header&utm_campaign=editor", describe: "下一代的高度定制化的流览器网页内容编辑器，是基于react开发"}, "tinymce/tinymce": {demo: "https:\u002F\u002Fwww.tinymce.com", recommand: true, describe: "支持图片在线处理，插件多，文档良好且齐全，功能强，编辑能力优秀，界面好看，推荐使用"}, "ckeditor/ckeditor-dev": {demo: "https:\u002F\u002Fckeditor.com\u002Fckeditor-4", describe: "界面极其优秀的一款，功能强大，编辑能力极强，基本和word差不多"}, "wangfupeng1988/wangEditor": {demo: "http:\u002F\u002Fwww.wangeditor.com", describe: "轻量简洁，最重要的是开源且中文文档齐全。设计的UI漂亮"}, "mycolorway/simditor": {demo: "http:\u002F\u002Fsimditor.tower.im", describe: "团队协作工具Tower使用的富文本编辑器，样式好看，插件不多，基本满足需求，维护较好"}, "fex-team/ueditor": {demo: "http:\u002F\u002Fueditor.baidu.com\u002Fwebsite\u002Fonlinedemo.html", describe: "中文文档，插件多，基本满足各种需求，类似贴吧中的回复界面。缺点：不再维护，文档极少，使用并不普遍，图片只能上传到本地服务器，如果需要上传到其他服务器需要改动源码，较为难办，加载速度慢"}, "kindsoft/kindeditor": {demo: "http:\u002F\u002Fkindeditor.net\u002Fdemo.php", describe: "界面类似百度，效果很像，文档齐全但用例较少，使用还算方便。缺点：总感觉样子不是很好看，没有现代那种风格，还是老式的传统图标"}}, "浏览器兼容方案": {"paulmillr/es6-shim": "提供兼容性垫片，使ES6能兼容于传统的js引擎", "Modernizr/Modernizr": "用来检测浏览器功能支持情况的js库,可以检测18项css3功能以及40多项关于h5的功能", "aFarkas/html5shiv": "主要解决html5提出的新的元素不被ie6-9识别"}};
+module.exports = {"优秀网站": {codepen: {url: "https:\u002F\u002Fcodepen.io", describe: "一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用", github: false, image: "6.jpg"}, codrops: {url: "http:\u002F\u002Fwww.codrops.com", describe: "一系列具有相当具有创意且有趣的前端效果的集合，是非常棒的学习资料，可以欣赏和下载使用。并且有些项目，也托管到了[github仓库](https:\u002F\u002Fgithub.com\u002Fcodrops)中", github: false, image: "7.jpg"}, docschina: {url: "https:\u002F\u002Fdocschina.org", describe: "印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍", github: false, image: "8.jpg"}, microjs: {url: "http:\u002F\u002Fmicrojs.com", describe: "可以让你选择微型的js类库的网站，该网站里的库都是压缩后不大于5KB的，非常实用，该网站的资源都托管到了github", github: false, image: "3.jpeg"}, plainjs: {url: "https:\u002F\u002Fdocschina.org", describe: "该仓库都是用原生js写的插件和组件，非常实用，该网站的资源都托管到了github", github: false, image: "2.jpeg"}}, "综合/资源": {"dypsilon/frontend-dev-bookmarks": "一个巨大的前端开发资源清单", "qiu-deqing/FE-interview": "收集的前端面试题和答案", "helloqingfeng/Awsome-Front-End-learning-resource": "github最全的前端资源汇总仓库", "hoosin/mobile-web-favorites": "移动端H5开发经验、资源、以及踩坑汇总", "AutumnsWind/Front-end-tutorial": "最全的资源教程-前端涉及的所有知识体系", "sorrycc/awesome-javascript": "一系列很棒的javascript库、插件、资源", "foru17/front-end-collect": "作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者", "JacksonTian/fks": "前端技能汇总，包含前端知识架构，后端知识，运维知识，书籍推荐等", "airbnb/javascript": "写js最佳的姿势", "AlloyTeam/Mars": "腾讯移动web前端知识库", "justjavac/awesome-wechat-weapp": "小程序开发资源汇总，应有尽有", "xitu/gold-miner": {demo: "https:\u002F\u002Fjuejin.im\u002Ftag\u002F掘金翻译计", describe: "掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台"}, "mqyqingfeng/Blog": "前端大牛的博文，优质文章"}, "样式/UI/css": {"Dogfalo/materialize": {describe: "materialize 是material design一套轻量级的纯CSS框架。material design 是Goole提出的一套UI设计方案，并应Goole用于所有产品中", demo: "https:\u002F\u002Fmaterializecss.com"}, "Semantic-Org/Semantic-UI": {describe: "让你使用任何html标签 来表现ui控件，这是一款语义化设计的前端框架，为攻城师而制作的可复用的开源前端框架"}, "uikit/uikit": {describe: "一个轻量级的、模块化前端框架，它被用于快速开发强大的web界面。也是一款优秀的响应式html5框架"}, "primer/primer": {describe: "github站点所使用的一套css框架"}, "weui/weui": {describe: "为微信web服务量身设计的一套ui框架"}, "yahoo/pure": "一组很小的，响应式的css组件，你可以在网页的项目上到处使用", "necolas/normalize.css": "一个可定制的css文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+"}, "构建工具/预编译": {"parcel-bundler/parcel": {recommand: true, describe: "一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具"}, "webpack/webpack": {recommand: true, describe: "一个模块打包工具，你可以使用webpack管理你的模块依赖，并编绎输出模块们所需的静态文件"}, "gulpjs/gulp": "基于node.js流构建系统，只有原生几个api，和庞大的插件生态，使用非常简单", "yeoman/yo": {demo: "http:\u002F\u002Fyeoman.io\u002F", describe: "基于node的一个强健的项目脚手架工具，可以非常方便的构建一个初始项目，有各种类型的项目的脚手架"}, "Microsoft/TypeScript": {recommand: true, demo: "https:\u002F\u002Fwww.tslang.cn\u002Fdocs\u002Fhandbook\u002Fbasic-types.html", describe: "有类型的js预编译语言，非常强大的预编译与代码报错提示，赋予了JS构建大型项目的可能"}, "babel/babel": {recommand: true, describe: "是一款为了写下一代js的编译器，无需等待浏览器支持就可以使用各种ES6，ES7新的语法"}, "stylus/stylus": {recommand: true, describe: "富有表现力的，健壮的css预编译语言, 除了代码简洁，可读性强外，函数功能非常强大，可与js混合使用，实现动态css编程"}, "less/less.js": {describe: "轻量级的，动态CSS预编语言，具有CSS所有特性，并提供了动态编程方式编写CSS代码。也是各大UI框架所选用的样式语言，比如bootstrap,ant design等"}, "sass/node-sass": {describe: "动态CSS预编语言, 并有拥有强大sass compass的生态圈，可以直接引入并使用，sass是由ruby编写的，node-sass是node重构版本，方便npm直接使用"}, "postcss/postcss": {recommand: true, describe: "用js插件来对css样式文件，进行转换、预编译等操作，并且实现了模块化，支持非常多插架"}}, "测试/工具": {"mochajs/mocha": "一个简单、灵活有趣的 javascript 测试框架，用于 nodejs 和浏览器上的 js 应用测试", "n1k0/casperjs": "一个基于 phantomjs 的开源导航脚本和测试工具", "karma-runner/karma": "自动化完成单元测试，允许你在多个浏览器里执行js代码。让你的 tdd 变得简单，快速，有趣", "jasmine/jasmine": "是一个简易的 js 单元测试框架， 用来测试 javascript 代码", "chaijs/chai": {recommand: true, describe: "一个针对 nodejs 和浏览器的 tdd (测试驱动开发)\u002F bdd(行为驱动开发)的断言框架，可与任何 javascript 测试框架集成"}, "zmoazeni/csscss": "css代码冗余分析工具，用于分析css存在的冗余", "caolan/async": "一个工具模块，提供了直接而强大的 javascript 异步功能。虽然是为 nodejs 设计的，但是它也可以直接在浏览器中使用", "yaniswang/HTMLHint": "html 静态代码分析工具，可以集成到代码编辑器或编译系统中", "eslint/eslint": {recommand: true, describe: "js 静态代码分析工具，可以帮你检测 js 语法错误和潜在的问题，可以集成到代码编辑器或编译系统中"}, "stylelint/stylelint": {recommand: true, describe: "分析和优化你的css样式表的工具，支持多种类型的css文件"}, "SimenB/stylint": "由于 stylus 官方团队并没有实现 .styl 文件检查工具，第三方实现了sytlus文件的代码风格检查工具", "WickyNilliams/headroom.js": "是强大的基准测试库，几乎适用于所有js平台。支持high-resolution定时器，并返回重要的统计结果"}, "canvas/数据可视化": {"mbostock/d3": {describe: "一个基于数据操作文档的js数据可视化框架，最流行的数据可视化库之一"}, "apache/incubator-echarts": {describe: "基于canvas的纯js图表库，提供直观，生动，可交互，可个性化定制的数据可视化图表"}, "nnnick/Chart.js": {describe: "使用canvas标签的简易html5图表"}, "masayuki0812/c3": {describe: "一个基于 d3.js 的可重用 javascript 图表库，几乎零学习曲线"}, "antvis/g2": {describe: "是一套基于可视化编码的图形语法，以数据驱动，具有高度的易用性和扩展性，可定制的颗粒度极细，相比项目echart大而全且易用的图表库，这个库会让你有不一样的体验，且官方提供了[g2-react](https:\u002F\u002Fgithub.com\u002Fantvis\u002Fg2-react)的react封装包"}, "soulwire/sketch.js": {describe: "跨平台javascript创意编码框架，gzip压缩后仅有2kb"}, "ecomfe/zrender": {describe: "一个轻量级的canvas类库，mvc封装，数据驱动，提供类dom事件模型，让canvas绘图大有不同"}, "highcharts/highcharts": {describe: "基于svg的javascript图表框架"}, "antvis/g6": {describe: "是一个由纯 JavaScript 编写的关系图基础技术框架。开发者能基于 G6 进行关系图的分析视图和编辑视图进行快速的二次开发"}}, "动画": {"daneden/animate.css": "一个跨浏览器的css动画库，实现了多种css3动画效果，简单易用易上手", "juliangarnier/anime": "极小的js动画引擎，支持 css3、svg 的动画效果，能编写出各种复杂动画效果，gzip后6K左右", "visionmedia/move.js": "极小的js库,支持css3的动画效果,非常简单优雅", "CreateJS/TweenJS": "是一个简单但强大的js动画库，createjs 套件的一部分", "tictail/bounce.js": "一个用于制作漂亮的css3关键帧动画的js库，使用其特有的方式生成的动画效果", "tweenjs/tween.js": "一款可生成平滑动画效果的js动画库，允许你以平滑的方式修改元素的属性值，它可以通过设置生成各种类似css3的动画效果", "wagerfield/parallax": "轻量级的的视差引擎，能对智能设备的方向作出反应", "julianshapiro/velocity": "是一款和jQuery的 $.animate() 有相同API的动画引擎，很适合移动端的动画开发，还打包了颜色动画，转换，循环，easing效果，类动画、滚动等功能"}, "插件": {"iamjoel/front-end-plugins": "前端常用插件汇总", "stefanbuck/awesome-browser-extensions-for-github": "收集关于github上优秀的浏览器插件，非常实用", "videojs/video.js": "开源的html5和flash视频播放器，支持自定义进度条、按钮以及工具栏的底色", "alvarotrigo/fullPage.js": "pc端的全屏滚动插件", "peachananr/onepage-scroll": "可以轻松建立一个动感的响应式的滚动效果页面，比较适用于单页面的专题站。支持现代浏览器和IE8以上版本", "nicinabox/superslides": "致力于解决网站大部分特效展示问题，网站上常用的焦点图\u002F幻灯片，tab标签切换，图片滚动，无缝滚动等", "Justineo/github-hovercard": "github 鼠标悬停显示用户，仓库等摘要信息"}, "框架、库和组件": {"Polymer/polymer": "以一切皆组件、最少化代码量、最少框架限制为设计理念的web组件构建框架", "bartaz/impress.js": "创建令人兴奋的演示。使用css3的转换和过渡，这个库允许你创建令人印象深刻的演示文稿", "hakimel/reveal.js": "基于css3的3D幻灯片工具，能够制作绚丽的演示文稿并生成html格式，将它发布到web上", "ksky521/nodePPT": "使用nodejs写的网络幻灯片，可能是迄今为止最好的网页版ppt", "mrdoob/three.js": "是js编写的webgl第三方库，提供了非常多的3D显示功能", "NUKnightLab/TimelineJS": "轻松制作时间轴", "isagalaev/highlight.js": "js语法高亮，既可以运行在浏览器端也可以运行在服务端", "tj/commander.js": "nodejs命令行工具，可用于制作那种node命令行终端应用", "mozilla/togetherjs": "由Mozilla打造的一款可以给网站添加实时协作功能的js库", "nbubna/HTML": "轻量级的简化与dom操作的js库", "sofish/wechat.js": "微信相关的 js 操作：分享、网络、菜单", "blueimp/JavaScript-Load-Image": "一个js加载和转换图像文件的库", "usablica/progress.js": "一个js的库，帮助开发人员为网页上的每个对象创建和管理进度条效果", "zurb/foundation": "号称世界上最先进的响应式前端框架，也是一款移动端优先的框架", "andrewplummer/Sugar": "扩展了现有的js对象的方法，让你可以用更少的代码做更多的事情", "tastejs/todomvc": "帮你挑选一款mv*框架，它使用不同的最流行的mv*框架实现了一个相同的todo应用", "dbushell/Pikaday": "是一个js日期选择器，特点是轻量级、无依赖和模块化的css", "fex-team/webuploader": "一个简单的以html5为主，flash为辅的现代文件上传组件。支持大文件分片并发上传，极大的提高了文件上传效率", "WickyNilliams/headroom.js": "是一个轻量级、纯js组件，用来隐藏或展现页面上的元素，为你的页面留下更多展示内容的空间", "fex-team/ua-device": "史上最全面的userAgent解析库，百度FEX出品", "overtrue/share.js": "一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣等"}, "移动端": {"ftlabs/fastclick": "触摸UI上的消除点击延迟js库", "muicss/mui": "最接近原生APP体验的高性能框架", "sdc-alibaba/SUI-Mobile": "由阿里巴巴国际UED前端出品的移动端UI库，轻量精美", "allmobilize/amazeui": "移动优先的跨屏前端框架。面向html5开发，使用css3做动画和交互", "driftyco/ionic": "先进的html5移动端开发框架，帮助开发者使用HTML5, css和js做出不可思议的hybrid app", "yanhaijing/zepto.fullpage": "专注于移动端的全屏滚动插件", "amfe/lib-flexible": "淘宝出品的移动端可伸缩布局方案", "thebird/swipe": "加速移动触摸滑块与硬件之间的转换", "hammerjs/hammer.js": "一个支持多点触摸的手势库", "madrobby/zepto": "一款面向移动端设备、api与jquery兼容的基础库", "nolimits4web/Swiper": "纯js打造的滑动特效插件，面向手机、平板电脑等移动终端。能实现触屏焦点图、触屏Tab切换、触屏多图切换等常用效果"}, "Node.js相关": {"sindresorhus/awesome-nodejs": "关于node包和资源的收集", "alsotang/node-lessons": "nodejs包教不包会", "youyudehexie/node123": "node.js中文资料导航", "meteor/meteor": "快速", "TryGhost/Ghost": "nodejs开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客", "NodeBB/NodeBB": "基于node编写的现代化社区论坛", "hexojs/hexo": "一款快捷，简单，强大的博客框架", "cnodejs/nodeclub": "使用nodejs和mongodb开发的社区系统", "nswbmw/N-chat": "使用express和socket搭建的多人聊天室", "electron/electron": "使用js,css,html构建跨平台的桌面应用"}, "模板引擎": {"pugjs/pug": "基于nodejs的强壮的、优雅的功能强大的模版引擎，相当简洁", "wycats/handlebars.js": "一个js语义模板库，能让你轻松高效的编写语义化模板", "aui/artTemplate": "性能卓越的js模板引擎", "tj/ejs": "tj大神写的嵌入javascript的模板引擎"}, "WEB编辑器": {"Microsoft/monaco-editor": {demo: "https:\u002F\u002Fmicrosoft.github.io\u002Fmonaco-editor", describe: "微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮，功能相当齐全，制作代码编辑器首选"}, "ory/editor": {demo: "https:\u002F\u002Feditor.ory.am\u002F?utm_source=github&utm_medium=header&utm_campaign=editor", describe: "下一代的高度定制化的流览器网页内容编辑器，是基于react开发"}, "tinymce/tinymce": {demo: "https:\u002F\u002Fwww.tinymce.com", recommand: true, describe: "支持图片在线处理，插件多，文档良好且齐全，功能强，编辑能力优秀，界面好看，推荐使用"}, "ckeditor/ckeditor-dev": {demo: "https:\u002F\u002Fckeditor.com\u002Fckeditor-4", describe: "界面极其优秀的一款，功能强大，编辑能力极强，基本和word差不多"}, "wangfupeng1988/wangEditor": {demo: "http:\u002F\u002Fwww.wangeditor.com", describe: "轻量简洁，最重要的是开源且中文文档齐全。设计的UI漂亮"}, "mycolorway/simditor": {demo: "http:\u002F\u002Fsimditor.tower.im", describe: "团队协作工具Tower使用的富文本编辑器，样式好看，插件不多，基本满足需求，维护较好"}, "fex-team/ueditor": {demo: "http:\u002F\u002Fueditor.baidu.com\u002Fwebsite\u002Fonlinedemo.html", describe: "中文文档，插件多，基本满足各种需求，类似贴吧中的回复界面。缺点：不再维护，文档极少，使用并不普遍，图片只能上传到本地服务器，如果需要上传到其他服务器需要改动源码，较为难办，加载速度慢"}, "kindsoft/kindeditor": {demo: "http:\u002F\u002Fkindeditor.net\u002Fdemo.php", describe: "界面类似百度，效果很像，文档齐全但用例较少，使用还算方便。缺点：总感觉样子不是很好看，没有现代那种风格，还是老式的传统图标"}}, "React相关": {"adam-golab/react-developer-roadmap": "react的学习路线图2018版", "krasimir/react-in-patterns": "react开发设计模式", "vasanthk/react-bits": "react最佳实践，有你想知道", "enaqx/awesome-react": "react资源大全，react该有的都有了", "facebook/create-react-app": "facebook官方提供react开发命令工具，解决初学者的各种烦恼", "zeit/next.js": {demo: "https:\u002F\u002Fnextjs.org", describe: "react服务端渲染框架"}, "ant-design/ant-design": {recommand: true, demo: "http:\u002F\u002Fant-design.gitee.io\u002Findex-cn", describe: "管理系统UI组件库，各类组件一应俱全，优秀的文档，良好的api，值得拥有"}, "ant-design/ant-design-mobile": {recommand: true, demo: "https:\u002F\u002Fmobile.ant.design\u002Findex-cn", describe: "react移动组件库，兼容react-native"}, "ant-design/ant-design-pro": {recommand: true, demo: "https:\u002F\u002Fpreview.pro.ant.design\u002F#\u002Fdashboard\u002Fanalysis", describe: "阿里团队官方实现的应用antd的，管理系统项目模版，开箱即用"}, "gatsbyjs/gatsby": "静态页面生成器，非常强大，自定能力强，模版极多", "developit/preact": "react的瘦身版，兼容官方react所有api,压缩后只有3kb", "recharts/recharts": {demo: "http:\u002F\u002Frecharts.org", describe: "d3图表库的react版"}, "RubaXa/Sortable": {demo: "http:\u002F\u002Frubaxa.github.io\u002FSortable", describe: "react的拖拽排序组件"}, "jamiebuilds/react-loadable": "react组件懒加载组件", "react-dnd/react-dnd": {demo: "http:\u002F\u002Freact-dnd.github.io\u002Freact-dnd", describe: "react拖拽组件，满足各种拖拽需求"}, "STRML/react-grid-layout": {recommand: true, demo: "https:\u002F\u002Fstrml.github.io\u002Freact-grid-layout\u002Fexamples\u002F0-showcase.html", describe: "可拖拽的伸缩的布局组件，admin dashboard必备精选，很高大上"}, "pedronauck/docz": {recommand: true, demo: "https:\u002F\u002Fwww.docz.site", describe: "基于react开发的写文档的神器,号称 写文档从未如此简单"}, "drcmda/react-spring": {demo: "http:\u002F\u002Freact-spring.surge.sh\u002F", describe: "写react动画的好帮手，不废话看样例"}, "facebook/react-360": {demo: "https:\u002F\u002Ffacebook.github.io\u002Freact-360", describe: "react VR 开发框架"}, "NervJS/taro": {demo: "https:\u002F\u002Ftaro.aotu.io\u002F", describe: "一套遵循 React 语法规范的 多端开发 解决方案, 有一套代码多端编译，适用小程序与原生app"}, "vadimdemedes/ink": "用react开发命令行交互工具，很酷", "ag-grid/ag-grid": "非常强大的table组件，完全满足以数据为主的数据展示表格"}, "浏览器兼容方案": {"paulmillr/es6-shim": "提供兼容性垫片，使ES6能兼容于传统的js引擎", "Modernizr/Modernizr": "用来检测浏览器功能支持情况的js库,可以检测18项css3功能以及40多项关于h5的功能", "aFarkas/html5shiv": "主要解决html5提出的新的元素不被ie6-9识别"}};
 },{}],4:[function(require,module,exports) {
 module.exports = {
-  "createTime": 1528633175768,
-  "dypsilon/frontend-dev-bookmarks": 24277,
-  "helloqingfeng/Awsome-Front-End-learning-resource": 3870,
-  "hoosin/mobile-web-favorites": 1273,
-  "airbnb/javascript": 71891,
-  "AlloyTeam/Mars": 6963,
-  "Dogfalo/materialize": 32948,
-  "Semantic-Org/Semantic-UI": 41551,
-  "uikit/uikit": 12579,
-  "primer/primer": 7216,
-  "weui/weui": 19012,
-  "yahoo/pure": 18694,
-  "parcel-bundler/parcel": 22997,
-  "webpack/webpack": 41532,
-  "yeoman/yo": 2531,
-  "Microsoft/TypeScript": 35178,
-  "babel/babel": 28010,
-  "less/less.js": 15555,
-  "postcss/postcss": 18626,
-  "mochajs/mocha": 15574,
-  "karma-runner/karma": 9771,
-  "chaijs/chai": 5418,
-  "caolan/async": 24101,
-  "yaniswang/HTMLHint": 1893,
+  "createTime": 1531839918200,
+  "dypsilon/frontend-dev-bookmarks": 24492,
+  "qiu-deqing/FE-interview": 3562,
+  "juliangarnier/anime": 21932,
+  "visionmedia/move.js": 4345,
+  "CreateJS/TweenJS": 2725,
+  "tictail/bounce.js": 5593,
+  "tweenjs/tween.js": 5633,
+  "wagerfield/parallax": 13131,
+  "julianshapiro/velocity": 14839,
+  "iamjoel/front-end-plugins": 732,
+  "stefanbuck/awesome-browser-extensions-for-github": 1224,
+  "videojs/video.js": 21913,
+  "Microsoft/monaco-editor": 10110,
+  "ory/editor": 6856,
+  "tinymce/tinymce": 5488,
+  "ckeditor/ckeditor-dev": 4103,
+  "wangfupeng1988/wangEditor": 5186,
+  "mycolorway/simditor": 3875,
+  "fex-team/ueditor": 3753,
+  "kindsoft/kindeditor": 1254,
+  "adam-golab/react-developer-roadmap": 6901,
+  "krasimir/react-in-patterns": 9767,
+  "_errorKeys": [],
+  "RubaXa/Sortable": 13861,
+  "jamiebuilds/react-loadable": 8829,
+  "react-dnd/react-dnd": 8882,
+  "STRML/react-grid-layout": 6693,
+  "pedronauck/docz": 7154,
+  "drcmda/react-spring": 6278,
+  "facebook/react-360": 6240,
+  "NervJS/taro": 6008,
+  "vadimdemedes/ink": 6131,
+  "ag-grid/ag-grid": 4118,
+  "karma-runner/karma": 9880,
+  "jasmine/jasmine": 13689,
+  "chaijs/chai": 5536,
+  "zmoazeni/csscss": 2945,
+  "caolan/async": 24319,
+  "yaniswang/HTMLHint": 1911,
+  "eslint/eslint": 11889,
+  "stylelint/stylelint": 5130,
   "SimenB/stylint": 289,
-  "mbostock/d3": 76386,
-  "nnnick/Chart.js": 37382,
-  "soulwire/sketch.js": 3118,
-  "ecomfe/zrender": 2877,
-  "juliangarnier/anime": 20935,
-  "tictail/bounce.js": 5559,
-  "julianshapiro/velocity": 14647,
-  "videojs/video.js": 21497,
-  "nicinabox/superslides": 1470,
-  "Polymer/polymer": 19720,
-  "bartaz/impress.js": 33629,
-  "ksky521/nodePPT": 4895,
-  "mrdoob/three.js": 42365,
-  "NUKnightLab/TimelineJS": 8546,
-  "tj/commander.js": 11455,
-  "nbubna/HTML": 1443,
-  "sofish/wechat.js": 912,
-  "usablica/progress.js": 2306,
-  "andrewplummer/Sugar": 3643,
-  "tastejs/todomvc": 23790,
-  "WickyNilliams/headroom.js": 9832,
-  "overtrue/share.js": 2057,
-  "muicss/mui": 3971,
-  "sdc-alibaba/SUI-Mobile": 5609,
-  "yanhaijing/zepto.fullpage": 1964,
-  "amfe/lib-flexible": 7696,
-  "thebird/swipe": 6677,
-  "hammerjs/hammer.js": 18474,
-  "madrobby/zepto": 13803,
-  "nolimits4web/Swiper": 16585,
-  "sindresorhus/awesome-nodejs": 24329,
-  "alsotang/node-lessons": 12722,
-  "youyudehexie/node123": 2849,
-  "TryGhost/Ghost": 25896,
-  "NodeBB/NodeBB": 8802,
-  "cnodejs/nodeclub": 7468,
-  "nswbmw/N-chat": 980,
-  "electron/electron": 61101,
-  "pugjs/pug": 16742,
-  "wycats/handlebars.js": 13392,
-  "tj/ejs": 3907,
-  "Microsoft/monaco-editor": 9378,
-  "ory/editor": 6730,
-  "tinymce/tinymce": 5365,
-  "ckeditor/ckeditor-dev": 4021,
-  "wangfupeng1988/wangEditor": 4841,
-  "fex-team/ueditor": 3668,
-  "kindsoft/kindeditor": 1226,
-  "paulmillr/es6-shim": 2577,
-  "Modernizr/Modernizr": 22638,
-  "aFarkas/html5shiv": 8968,
-  "errorKeys": [],
-  "qiu-deqing/FE-interview": 3422,
-  "AutumnsWind/Front-end-tutorial": 3568,
-  "sorrycc/awesome-javascript": 14506,
-  "JacksonTian/fks": 12584,
-  "necolas/normalize.css": 31293,
-  "gulpjs/gulp": 29658,
-  "stylus/stylus": 9167,
-  "sass/node-sass": 5160,
-  "n1k0/casperjs": 7199,
-  "jasmine/jasmine": 13596,
-  "zmoazeni/csscss": 2947,
-  "stylelint/stylelint": 4971,
-  "masayuki0812/c3": 7764,
-  "antvis/g2": 5315,
-  "highcharts/highcharts": 7675,
-  "antvis/g6": 2123,
-  "daneden/animate.css": 52039,
-  "visionmedia/move.js": 4337,
-  "CreateJS/TweenJS": 2705,
-  "tweenjs/tween.js": 5523,
-  "wagerfield/parallax": 13015,
-  "iamjoel/front-end-plugins": 715,
-  "stefanbuck/awesome-browser-extensions-for-github": 1170,
-  "alvarotrigo/fullPage.js": 23791,
-  "peachananr/onepage-scroll": 9309,
-  "Justineo/github-hovercard": 1140,
-  "hakimel/reveal.js": 40899,
-  "isagalaev/highlight.js": 12348,
-  "mozilla/togetherjs": 6101,
-  "blueimp/JavaScript-Load-Image": 2927,
-  "zurb/foundation": 27375,
-  "dbushell/Pikaday": 6129,
-  "fex-team/webuploader": 5875,
-  "fex-team/ua-device": 770,
-  "ftlabs/fastclick": 16471,
-  "allmobilize/amazeui": 11904,
-  "driftyco/ionic": 34442,
-  "meteor/meteor": 39898,
-  "hexojs/hexo": 22416,
-  "aui/artTemplate": 6904,
-  "mycolorway/simditor": 3783,
-  "eslint/eslint": 11565,
-  "foru17/front-end-collect": 3736,
-  "apache/incubator-echarts": 28191
-}
-;
+  "WickyNilliams/headroom.js": 9869,
+  "mbostock/d3": 77319,
+  "apache/incubator-echarts": 28893,
+  "nnnick/Chart.js": 38264,
+  "masayuki0812/c3": 7834,
+  "antvis/g2": 5512,
+  "soulwire/sketch.js": 3159,
+  "ecomfe/zrender": 2980,
+  "highcharts/highcharts": 7780,
+  "antvis/g6": 2568,
+  "daneden/animate.css": 52810,
+  "alvarotrigo/fullPage.js": 24114,
+  "peachananr/onepage-scroll": 9327,
+  "nicinabox/superslides": 1471,
+  "Justineo/github-hovercard": 1148,
+  "Polymer/polymer": 19915,
+  "bartaz/impress.js": 33739,
+  "hakimel/reveal.js": 41441,
+  "ksky521/nodePPT": 4987,
+  "mrdoob/three.js": 43293,
+  "NUKnightLab/TimelineJS": 8565,
+  "isagalaev/highlight.js": 12551,
+  "tj/commander.js": 11903,
+  "mozilla/togetherjs": 6132,
+  "nbubna/HTML": 1444,
+  "sofish/wechat.js": 914,
+  "blueimp/JavaScript-Load-Image": 2969,
+  "usablica/progress.js": 2311,
+  "zurb/foundation": 27480,
+  "andrewplummer/Sugar": 3859,
+  "tastejs/todomvc": 24059,
+  "yanhaijing/zepto.fullpage": 1973,
+  "amfe/lib-flexible": 7963,
+  "thebird/swipe": 6697,
+  "hammerjs/hammer.js": 18644,
+  "madrobby/zepto": 13888,
+  "nolimits4web/Swiper": 16944,
+  "sindresorhus/awesome-nodejs": 24958,
+  "alsotang/node-lessons": 13119,
+  "youyudehexie/node123": 2892,
+  "meteor/meteor": 40041,
+  "vasanthk/react-bits": 9225,
+  "facebook/create-react-app": 52301,
+  "zeit/next.js": 27253,
+  "ant-design/ant-design": 30868,
+  "ant-design/ant-design-mobile": 5519,
+  "ant-design/ant-design-pro": 10828,
+  "gatsbyjs/gatsby": 23449,
+  "developit/preact": 19419,
+  "recharts/recharts": 9366,
+  "paulmillr/es6-shim": 2602,
+  "Modernizr/Modernizr": 22758,
+  "aFarkas/html5shiv": 9018,
+  "_createTime": 1531841733538,
+  "helloqingfeng/Awsome-Front-End-learning-resource": 3990,
+  "hoosin/mobile-web-favorites": 1289,
+  "AutumnsWind/Front-end-tutorial": 3624,
+  "sorrycc/awesome-javascript": 14819,
+  "foru17/front-end-collect": 3808,
+  "JacksonTian/fks": 12745,
+  "airbnb/javascript": 73519,
+  "AlloyTeam/Mars": 7115,
+  "justjavac/awesome-wechat-weapp": 16088,
+  "xitu/gold-miner": 15076,
+  "NodeBB/NodeBB": 8930,
+  "hexojs/hexo": 22822,
+  "cnodejs/nodeclub": 7572,
+  "nswbmw/N-chat": 990,
+  "electron/electron": 62523,
+  "pugjs/pug": 16918,
+  "wycats/handlebars.js": 13534,
+  "aui/artTemplate": 7120,
+  "tj/ejs": 3943,
+  "enaqx/awesome-react": 26650,
+  "gulpjs/gulp": 29890,
+  "yeoman/yo": 2569,
+  "Microsoft/TypeScript": 36759,
+  "babel/babel": 28541,
+  "stylus/stylus": 9282,
+  "less/less.js": 15627,
+  "sass/node-sass": 5282,
+  "postcss/postcss": 18920,
+  "mochajs/mocha": 15848,
+  "n1k0/casperjs": 7233,
+  "mqyqingfeng/Blog": 6590,
+  "Dogfalo/materialize": 33400,
+  "Semantic-Org/Semantic-UI": 42092,
+  "uikit/uikit": 12794,
+  "primer/primer": 7407,
+  "weui/weui": 19402,
+  "yahoo/pure": 18810,
+  "necolas/normalize.css": 31716,
+  "parcel-bundler/parcel": 24746,
+  "webpack/webpack": 42515,
+  "muicss/mui": 3993,
+  "sdc-alibaba/SUI-Mobile": 5678,
+  "allmobilize/amazeui": 12026,
+  "driftyco/ionic": 34693,
+  "TryGhost/Ghost": 26098,
+  "dbushell/Pikaday": 6189,
+  "fex-team/webuploader": 5983,
+  "fex-team/ua-device": 806,
+  "overtrue/share.js": 2133,
+  "ftlabs/fastclick": 16597
+};
 },{}],2:[function(require,module,exports) {
 'use strict';
 
@@ -12650,7 +12675,7 @@ window.onload = function () {
   renderPage();
   M.ScrollSpy.init(document.querySelectorAll('.scrollspy'));
 };
-},{"../lib/materialize/css/materialize.css":8,"../lib/materialize/js/materialize":9,"../css/index.styl":5,"./tmpl":6,"./utils":7,"../../projects.yaml":3,"../../stars.json":4}],17:[function(require,module,exports) {
+},{"../lib/materialize/css/materialize.css":8,"../lib/materialize/js/materialize":9,"../css/index.styl":5,"./tmpl":6,"./utils":7,"../../projects.yaml":3,"../../stars.json":4}],14:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -12679,7 +12704,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '62315' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63511' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -12820,88 +12845,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],18:[function(require,module,exports) {
-var getBundleURL = require('./bundle-url').getBundleURL;
-
-function loadBundlesLazy(bundles) {
-  if (!Array.isArray(bundles)) {
-    bundles = [bundles];
-  }
-
-  var id = bundles[bundles.length - 1];
-
-  try {
-    return Promise.resolve(require(id));
-  } catch (err) {
-    if (err.code === 'MODULE_NOT_FOUND') {
-      return new LazyPromise(function (resolve, reject) {
-        loadBundles(bundles).then(resolve, reject);
-      });
-    }
-
-    throw err;
-  }
-}
-
-function loadBundles(bundles) {
-  var id = bundles[bundles.length - 1];
-
-  return Promise.all(bundles.slice(0, -1).map(loadBundle)).then(function () {
-    return require(id);
-  });
-}
-
-var bundleLoaders = {};
-function registerBundleLoader(type, loader) {
-  bundleLoaders[type] = loader;
-}
-
-module.exports = exports = loadBundlesLazy;
-exports.load = loadBundles;
-exports.register = registerBundleLoader;
-
-var bundles = {};
-function loadBundle(bundle) {
-  var id;
-  if (Array.isArray(bundle)) {
-    id = bundle[1];
-    bundle = bundle[0];
-  }
-
-  if (bundles[bundle]) {
-    return bundles[bundle];
-  }
-
-  var type = (bundle.substring(bundle.lastIndexOf('.') + 1, bundle.length) || bundle).toLowerCase();
-  var bundleLoader = bundleLoaders[type];
-  if (bundleLoader) {
-    return bundles[bundle] = bundleLoader(getBundleURL() + bundle).then(function (resolved) {
-      if (resolved) {
-        module.bundle.modules[id] = [function (require, module) {
-          module.exports = resolved;
-        }, {}];
-      }
-
-      return resolved;
-    });
-  }
-}
-
-function LazyPromise(executor) {
-  this.executor = executor;
-  this.promise = null;
-}
-
-LazyPromise.prototype.then = function (onSuccess, onError) {
-  if (this.promise === null) this.promise = new Promise(this.executor);
-  return this.promise.then(onSuccess, onError);
-};
-
-LazyPromise.prototype.catch = function (onError) {
-  if (this.promise === null) this.promise = new Promise(this.executor);
-  return this.promise.catch(onError);
-};
-},{"./bundle-url":12}],0:[function(require,module,exports) {
-var b=require(18);
-},{}]},{},[17,0,2], null)
+},{}]},{},[14,2], null)
 //# sourceMappingURL=/js.d47f437f.map

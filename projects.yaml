@@ -34,8 +34,13 @@
   sorrycc/awesome-javascript:  一系列很棒的javascript库、插件、资源
   foru17/front-end-collect: 作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者
   JacksonTian/fks: 前端技能汇总，包含前端知识架构，后端知识，运维知识，书籍推荐等
-  airbnb/javascript: 最合理的写js的姿势
+  airbnb/javascript: 写js最佳的姿势
   AlloyTeam/Mars: 腾讯移动web前端知识库
+  justjavac/awesome-wechat-weapp: 小程序开发资源汇总，应有尽有
+  xitu/gold-miner:
+    demo: https://juejin.im/tag/掘金翻译计
+    describe: 掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台
+  mqyqingfeng/Blog: 前端大牛的博文，优质文章
 
 样式/UI/css:
   Dogfalo/materialize:
@@ -51,7 +56,6 @@
     describe: 为微信web服务量身设计的一套ui框架
   yahoo/pure: 一组很小的，响应式的css组件，你可以在网页的项目上到处使用
   necolas/normalize.css: 一个可定制的css文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+
-
 
 构建工具/预编译:
   parcel-bundler/parcel:
@@ -221,6 +225,60 @@ WEB编辑器:
   kindsoft/kindeditor:
     demo: http://kindeditor.net/demo.php
     describe: 界面类似百度，效果很像，文档齐全但用例较少，使用还算方便。缺点：总感觉样子不是很好看，没有现代那种风格，还是老式的传统图标
+
+React相关:
+  adam-golab/react-developer-roadmap: react的学习路线图2018版
+  krasimir/react-in-patterns: react开发设计模式
+  vasanthk/react-bits: react最佳实践，有你想知道
+  enaqx/awesome-react: react资源大全，react该有的都有了
+  facebook/create-react-app: facebook官方提供react开发命令工具，解决初学者的各种烦恼
+  zeit/next.js:
+    demo: https://nextjs.org
+    describe: react服务端渲染框架
+  ant-design/ant-design:
+    recommand: true
+    demo: http://ant-design.gitee.io/index-cn
+    describe: 管理系统UI组件库，各类组件一应俱全，优秀的文档，良好的api，值得拥有
+  ant-design/ant-design-mobile:
+    recommand: true
+    demo: https://mobile.ant.design/index-cn
+    describe: react移动组件库，兼容react-native
+  ant-design/ant-design-pro:
+    recommand: true
+    demo: https://preview.pro.ant.design/#/dashboard/analysis
+    describe: 阿里团队官方实现的应用antd的，管理系统项目模版，开箱即用
+  gatsbyjs/gatsby: 静态页面生成器，非常强大，自定能力强，模版极多
+  developit/preact: react的瘦身版，兼容官方react所有api,压缩后只有3kb
+  recharts/recharts:
+    demo: http://recharts.org
+    describe: d3图表库的react版
+  RubaXa/Sortable:
+    demo: http://rubaxa.github.io/Sortable
+    describe: react的拖拽排序组件
+  jamiebuilds/react-loadable: react组件懒加载组件
+  react-dnd/react-dnd:
+    demo: http://react-dnd.github.io/react-dnd
+    describe: react拖拽组件，满足各种拖拽需求
+  STRML/react-grid-layout:
+    recommand: true
+    demo: https://strml.github.io/react-grid-layout/examples/0-showcase.html
+    describe: 可拖拽的伸缩的布局组件，admin dashboard必备精选，很高大上
+  pedronauck/docz:
+    recommand: true
+    demo: https://www.docz.site
+    describe: 基于react开发的写文档的神器,号称 写文档从未如此简单
+  drcmda/react-spring:
+    demo: http://react-spring.surge.sh/
+    describe: 写react动画的好帮手，不废话看样例
+  facebook/react-360:
+    demo: https://facebook.github.io/react-360
+    describe: react VR 开发框架
+  NervJS/taro:
+    demo: https://taro.aotu.io/
+    describe: 一套遵循 React 语法规范的 多端开发 解决方案, 有一套代码多端编译，适用小程序与原生app
+  vadimdemedes/ink: 用react开发命令行交互工具，很酷
+  ag-grid/ag-grid: 非常强大的table组件，完全满足以数据为主的数据展示表格
+
 
 浏览器兼容方案:
   # aFarkas/html5shiv: 主要解决html5提出的新的元素不被ie6-9识别

@@ -9076,13 +9076,21 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
   vertical-align: middle;
 }
 .text-flow,
-.mult-text-flow,
+.mult-text-flow {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
 .logo-icon {
   background: url("logo-w.73d4fce4.png") no-repeat;
   background-size: contain;
 }
 .projects-item .card {
   cursor: pointer;
+}
+.projects-item .card:hover {
+  box-shadow: 0 8px 17px 2px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
 }
 .projects-item .card-title {
   padding: 10px 0 0 20px;

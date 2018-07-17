@@ -6,55 +6,83 @@ const yaml = require('js-yaml');
 
 const paths = require('./paths');
 
-const token = 'edda2640e3e5390e0d426033ac60ae7e3633555b';
-const projects = yaml.load(shell.cat(paths.projects));
+const _token = 'edda2640e3e5390e0d426033ac60ae7e3633555b';
+const _now = Date.now();
 
-let index = 0;
-let errorKeys = [];
-let result = { createTime: Date.now() };
+let _result = { _createTime: _now, _errorKeys: [] };
+const _queueLength = 2; // 并发请求数量 【根据网络情况调整】
+const _requestTimer = 20; // 请求间隔 单位 秒 【根据网络情况调整】
+const _errorKeys = []; // 记录请求出错key
 
-const newKeys = getNewKeys();
+let _allRequestCount = 0; // 记录一共请求的数量
 
-if (!newKeys.length) return; // 没有需要更新的项目
+const _newRequestKeys = getNewKeys();
+const _requestQueue = getRequestQueue(_newRequestKeys);
 
-console.log(`\n ${new Date()} counts: ${newKeys.length}`);
-
-const stars = schedule.scheduleJob('2 * * * * *', () => {
-  const projectKey = newKeys[index];
-
-  if (!projectKey) { // 直到请求到最后一个项目
-    saveStars();
-    stars.cancel();
-    return;
-  }
-
-  axios.get(`${paths.githubApi}/repos/${projectKey}?access_token=${token}`).then(res => {
-    result[projectKey] = res.data.stargazers_count; // 获取 star 数量
-    console.log(`success: ${index} ${projectKey}`);
-    if (index % 10 === 0) {
-      saveStars();
-    }
-  }).catch(() => {
-    errorKeys.push[projectKey];
-    console.log(`error: ${index} ${projectKey}`);
-  });
-  index++;
-});
-
-function saveStars() {
-  shell.rm('-rf', paths.stars);
-  result.errorKeys = errorKeys;
-  fs.writeFileSync(paths.stars, JSON.stringify(result, null, 2), 'utf-8');
-  let i = 0;
-  newKeys.forEach(key => {
-    if (result[key]) {
-      i++;
-    }
-  });
-  console.log(`save stars file:  all: ${newKeys.length} result: ${i} error: ${errorKeys.length}`);
+if (!_allRequestCount) { // 没有需要更新的项目
+  console.log('no projects need request keys.\n');
+  return;
 }
 
+console.log(`\n ${new Date()} start request ${_allRequestCount} projects.\n`);
+
+requestQueueStars(_requestQueue); // 请求所有 数据
+
+// 获取 所有数据
+function requestQueueStars(queue) {
+  queue.forEach((q, index) => {
+    let timer = setTimeout(() => { // 每隔固定时间 并非固定数量的请求
+      getStars(q);
+      clearTimeout(timer);
+      timer = null;
+    }, _requestTimer * index * 1000)
+  });
+}
+
+// 从github中获取 star 数量
+function getStars(queue) {
+  console.log(`request projects:\n  ${queue.join('\n  ')}\n`);
+
+  Promise.all(queue.map(key =>
+    axios.get(`${paths.githubApi}/repos/${key}?access_token=${_token}`)
+      .catch(error => _errorKeys.push(key)) // 避免一个错误 引起整个 queue 数据浪费
+    ))
+      .catch(() => _errorKeys.concat(queue)) // 意外错误处理
+      .then(resDataAr => {
+        resDataAr.forEach((resdata, index) => {
+          const projectKey = queue[index];
+          if (!resdata.data || !resdata.data.stargazers_count) { // 如果没有对应数据 直接返回
+            console.log(`error: ${projectKey}`);
+            return;
+          }
+          const count = resdata.data.stargazers_count;
+          _result[projectKey] = count; // 获取 star 数量
+          console.log(`success: ${projectKey} ${count}`);
+        });
+        saveStars(); // 每一次并发请求数据 都存储一次文件， 防止数据丢失
+      });
+}
+
+// 存储 获取的数据
+function saveStars() {
+  shell.rm('-rf', paths.stars);
+  fs.writeFileSync(paths.stars, JSON.stringify(_result, null, 2), 'utf-8');
+  if (_errorKeys.length) {
+    _result._errorKeys = _errorKeys; // 记录所有错误key
+  }
+
+  const success = Object.keys(_result).filter(i => _newRequestKeys.find(j => i === j));
+
+  console.log('------------------------------------------------');
+  console.log(`save stars file, all: ${
+    _allRequestCount } success: ${ success.length } error: ${ _errorKeys.length }`);
+  console.log('------------------------------------------------\n');
+}
+
+// 获取配置文件中 github项目 的 projectkey
 function getProjectKeys() {
+  const projects = yaml.load(shell.cat(paths.projects));
+
   const keys = [];
   for (let catgory in projects) {
     const items = projects[catgory];
@@ -67,16 +95,20 @@ function getProjectKeys() {
   return keys;
 }
 
+// 获取 一个月内 新 添加的项目
 function getNewKeys() {
   const keys = getProjectKeys();
 
   if (!shell.test('-e', paths.stars)) return keys; // 不存在stars文件
+
   const stars = JSON.parse(shell.cat(paths.stars).stdout);
   const month = 30 * 24 * 60 * 60 * 1000;
-  if (Date.now() - stars.createTime > month) return keys; // 超过一周重新获取数据
-
   const newKeys = [];
-  result = stars;
+
+  if (_now - stars.createTime > month) return keys; // 超过一周重新获取数据
+
+  _result = stars;
+  _result._errorKeys = [];
 
   for (let i = 0; i < keys.length; i++) {
     if (!stars[keys[i]]){
@@ -86,3 +118,25 @@ function getNewKeys() {
 
   return newKeys;
 };
+
+// 将项目的key值 按照固定长度 打包成数组 队列
+function getRequestQueue(newKeys) {
+  const len = newKeys.length;
+  _allRequestCount = len;
+
+  if (len <= _queueLength) return [newKeys];
+
+  const requestQueue = [];
+  let i = 0;
+
+  while(newKeys[i]) {
+    requestQueue.push(newKeys.slice(i, i + _queueLength));
+    i += _queueLength;
+  }
+
+  if (i % _queueLength != 0) {
+    requestQueue.push(newKeys.slice(i - _queueLength, len));
+  }
+
+  return requestQueue;
+}
