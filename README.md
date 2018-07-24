@@ -1,6 +1,6 @@
 # [GitHub 值得收藏的前端项目](https://github.com/CareyToboo/github-FE-project)
 
-> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。
+> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。[预览](https://careytoboo.github.io/github-FE-project/dist/index.html)
 
 - [codepen](https://codepen.io) 一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用    
 
@@ -261,7 +261,7 @@
 
 - [node123](https://github.com/youyudehexie/node123) node.js中文资料导航  `star: 2892`    
 
-- [meteor](https://github.com/meteor/meteor) 快速  `star: 40041`    
+- [meteor](https://github.com/meteor/meteor) 快速构建web应用的全栈框架，拥有非常常强大的生态圈，但是国内不是很流行  `star: 40041`    
 
 - [Ghost](https://github.com/TryGhost/Ghost) nodejs开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客  `star: 26098`    
 

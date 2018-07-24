@@ -185,7 +185,7 @@ Node.js相关:
   sindresorhus/awesome-nodejs: 关于node包和资源的收集
   alsotang/node-lessons: nodejs包教不包会
   youyudehexie/node123: node.js中文资料导航
-  meteor/meteor: 快速 # 构建web应用的全栈框架，有非常强大的生态圈，基于实时的可插拔的框架，但是在国内不是很流行
+  meteor/meteor: 快速构建web应用的全栈框架，拥有非常常强大的生态圈，但是国内不是很流行
   TryGhost/Ghost:  nodejs开发最新博客系统, 简单简洁, 响应式设计, 支持完全自定义, 免费, 专注博客
   NodeBB/NodeBB: 基于node编写的现代化社区论坛
   hexojs/hexo: 一款快捷，简单，强大的博客框架
