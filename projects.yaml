@@ -14,6 +14,11 @@
     describe: 印记中文网收集了由社区翻译的比较流行的前端相关框架、工具的中文版文档。为学习一些新的框架扫平了语言障碍
     github: false
     image: 8.jpg
+  toby:
+    url: https://www.gettoby.com
+    describe: 超级赞的收集与协作管理书签的chrome插件，前端开发应该都会用chrome。全球超过10W+的用户
+    github: false
+    image: 9.jpg
   microjs:
     url: http://microjs.com
     describe: 可以让你选择微型的js类库的网站，该网站里的库都是压缩后不大于5KB的，非常实用，该网站的资源都托管到了github
@@ -27,20 +32,28 @@
 
 综合/资源:
   dypsilon/frontend-dev-bookmarks: 一个巨大的前端开发资源清单
-  qiu-deqing/FE-interview: 收集的前端面试题和答案
   helloqingfeng/Awsome-Front-End-learning-resource: github最全的前端资源汇总仓库
   hoosin/mobile-web-favorites: 移动端H5开发经验、资源、以及踩坑汇总
   AutumnsWind/Front-end-tutorial: 最全的资源教程-前端涉及的所有知识体系
   sorrycc/awesome-javascript:  一系列很棒的javascript库、插件、资源
   foru17/front-end-collect: 作者分享自己长期关注的前端开发相关的优秀网站、博客、以及活跃开发者
-  JacksonTian/fks: 前端技能汇总，包含前端知识架构，后端知识，运维知识，书籍推荐等
-  airbnb/javascript: 写js最佳的姿势
+  airbnb/javascript: airbnb出品写js最佳的姿势，已成众多公司js代码风格的标准
   AlloyTeam/Mars: 腾讯移动web前端知识库
   justjavac/awesome-wechat-weapp: 小程序开发资源汇总，应有尽有
   xitu/gold-miner:
     demo: https://juejin.im/tag/掘金翻译计
     describe: 掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台
   mqyqingfeng/Blog: 前端大牛的博文，优质文章
+  hzlzh/Best-App: 收集&推荐优秀的 Apps/硬件/技巧/周边等（与前端无关）
+面试相关:
+  qiu-deqing/FE-interview: 收集的前端面试题和答案
+  BestDingSheng/resources: 知名互联网企业内推，需要换工作的小伙伴擦亮眼睛了
+  InterviewMap/CS-Interview-Knowledge-Map:
+    demo: https://yuchengkai.cn/docs/zh/
+    describe: 一份前端面试资源，作者很用心，还配有专门的网页
+  ElemeFE/node-interview:
+    demo: https://elemefe.github.io/node-interview/#/sections/zh-cn/
+    describe: 如何进入饿了么前端团队，node面试题集合
 
 样式/UI/css:
   Dogfalo/materialize:
@@ -56,6 +69,10 @@
     describe: 为微信web服务量身设计的一套ui框架
   yahoo/pure: 一组很小的，响应式的css组件，你可以在网页的项目上到处使用
   necolas/normalize.css: 一个可定制的css文件，使浏览器呈现的所有元素，更一致和符合现代标准。支持IE8+
+  chokcoco/iCSS: 一系列css有趣的话题，有开发中常用css代码gists
+  css-doodle/css-doodle:
+    demo: https://codepen.io/collection/XyVkpQ/
+    describe: 一个用css绘制图形的web组件。非常酷！请看demo作品
 
 构建工具/预编译:
   parcel-bundler/parcel:
@@ -105,6 +122,9 @@
     describe: 分析和优化你的css样式表的工具，支持多种类型的css文件
   SimenB/stylint: 由于 stylus 官方团队并没有实现 .styl 文件检查工具，第三方实现了sytlus文件的代码风格检查工具
   WickyNilliams/headroom.js: 是强大的基准测试库，几乎适用于所有js平台。支持high-resolution定时器，并返回重要的统计结果
+  MicrosoftDX/Vorlonjs:
+    demo: http://www.vorlonjs.com
+    describe: 远程调试移动端页面的工具，有和PC页面调试一致的体验。比如native app内嵌h5页面、手机h5页面等。国内也一个相同功能的软件[moblie debug](https://www.mobiledebug.com/)。
 
 canvas/数据可视化:
   mbostock/d3:
@@ -146,8 +166,14 @@ canvas/数据可视化:
   Justineo/github-hovercard: github 鼠标悬停显示用户，仓库等摘要信息
 
 框架、库和组件:
+  alibaba/ice:
+    demo: https://alibaba.github.io/ice/
+    describe: 阿里飞冰，从此再也不担心管理系统的开发。(个人觉得简单项目还是可以，复杂的做不了)
   Polymer/polymer: 以一切皆组件、最少化代码量、最少框架限制为设计理念的web组件构建框架
   bartaz/impress.js: 创建令人兴奋的演示。使用css3的转换和过渡，这个库允许你创建令人印象深刻的演示文稿
+  janpaepke/ScrollMagic:
+    demo: http://scrollmagic.io/
+    describe: 一款非常赞的滚动交互的js插件，可用于官网与宣传广告场景
   hakimel/reveal.js: 基于css3的3D幻灯片工具，能够制作绚丽的演示文稿并生成html格式，将它发布到web上
   ksky521/nodePPT: 使用nodejs写的网络幻灯片，可能是迄今为止最好的网页版ppt
   mrdoob/three.js: 是js编写的webgl第三方库，提供了非常多的3D显示功能
@@ -192,6 +218,10 @@ Node.js相关:
   cnodejs/nodeclub: 使用nodejs和mongodb开发的社区系统
   nswbmw/N-chat: 使用express和socket搭建的多人聊天室
   electron/electron: 使用js,css,html构建跨平台的桌面应用
+  sahat/hackathon-starter: 一个非常棒的noder初始项目，拥有完整系统架构与用户系统（第三方登录）
+  nestjs/nest:
+    demo: https://nestjs.com/
+    describe: 完全使用typescript编写的服务端框架，相比传统nodejs项目，可维护性、健壮性、可重构性大大加强。号称node版的spring boot
 
 模板引擎:
   pugjs/pug: 基于nodejs的强壮的、优雅的功能强大的模版引擎，相当简洁
@@ -203,6 +233,9 @@ WEB编辑器:
   Microsoft/monaco-editor:
     demo: https://microsoft.github.io/monaco-editor
     describe: 微软开发的vs code编辑器的核心编辑组件，可以在浏览器中使用使用的代码编辑器，并支持各种语言高亮，功能相当齐全，制作代码编辑器首选
+  codemirror/CodeMirror:
+    demo: https://codemirror.net/
+    describe: 一个轻量级的代码编辑器，核心代码相当的少，同样支持非常多的编程语言的编辑。
   ory/editor:
     demo: https://editor.ory.am/?utm_source=github&utm_medium=header&utm_campaign=editor
     describe: 下一代的高度定制化的流览器网页内容编辑器，是基于react开发
@@ -225,6 +258,16 @@ WEB编辑器:
   kindsoft/kindeditor:
     demo: http://kindeditor.net/demo.php
     describe: 界面类似百度，效果很像，文档齐全但用例较少，使用还算方便。缺点：总感觉样子不是很好看，没有现代那种风格，还是老式的传统图标
+  joemccann/dillinger:
+    demo: https://dillinger.io/
+    describe: 一个完整的基于node与angular的可以直接部署md项目，可以学习整个项目架构
+  sparksuite/simplemde-markdown-editor:
+    demo: https://simplemde.com/
+    describe: 极简版的markdown编辑器，非常轻量级，可以用于简单的md编辑场景
+  nhnent/tui.editor:
+    demo: http://ui.toast.com/tui-editor/
+    recommand: true
+    describe: 一款功能非常强大的markdown编辑器，有点想"有道云笔记"的md编辑器。非常方便添加自定义功能。
 
 React相关:
   adam-golab/react-developer-roadmap: react的学习路线图2018版
@@ -279,7 +322,17 @@ React相关:
   vadimdemedes/ink: 用react开发命令行交互工具，很酷
   ag-grid/ag-grid: 非常强大的table组件，完全满足以数据为主的数据展示表格
 
-
+编程软实力:
+  JacksonTian/fks: 前端技能汇总，包含前端知识架构，后端知识，运维知识，书籍推荐等
+  trekhleb/javascript-algorithms:
+    demo: https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md
+    describe: 包含了多种基于js的算法与数据结构,每种算法都有自己的README说明与YouTube视频
+  CyC2018/CS-Notes: 计算机相关的各种记录，涉及到编程的方方面面
+  Jam3/math-as-code:
+    demo: https://github.com/Jam3/math-as-code/blob/master/README-zh.md
+    describe: 学术论文可能会吓着自学游戏和图形的程序猿,通过对比数学符号和JavaScript代码来帮助开发者更容易了解数学符号
+  justjavac/free-programming-books-zh_CN:
+    describe: 免费的计算机编程类中文书籍,不得不说，现在这个时代太好了。
 浏览器兼容方案:
   # aFarkas/html5shiv: 主要解决html5提出的新的元素不被ie6-9识别
   paulmillr/es6-shim:  提供兼容性垫片，使ES6能兼容于传统的js引擎

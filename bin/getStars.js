@@ -10,8 +10,8 @@ const _token = 'edda2640e3e5390e0d426033ac60ae7e3633555b';
 const _now = Date.now();
 
 let _result = { _createTime: _now, _errorKeys: [] };
-const _queueLength = 2; // 并发请求数量 【根据网络情况调整】
-const _requestTimer = 20; // 请求间隔 单位 秒 【根据网络情况调整】
+const _queueLength = 5; // 并发请求数量 【根据网络情况调整】
+const _requestTimer = 20; // 1-59 请求间隔 单位 秒 【根据网络情况调整】
 const _errorKeys = []; // 记录请求出错key
 
 let _allRequestCount = 0; // 记录一共请求的数量
@@ -20,7 +20,7 @@ const _newRequestKeys = getNewKeys();
 const _requestQueue = getRequestQueue(_newRequestKeys);
 
 if (!_allRequestCount) { // 没有需要更新的项目
-  console.log('no projects need request keys.\n');
+  console.log('no projects need request stars.\n');
   return;
 }
 
@@ -30,13 +30,25 @@ requestQueueStars(_requestQueue); // 请求所有 数据
 
 // 获取 所有数据
 function requestQueueStars(queue) {
-  queue.forEach((q, index) => {
-    let timer = setTimeout(() => { // 每隔固定时间 并非固定数量的请求
-      getStars(q);
-      clearTimeout(timer);
-      timer = null;
-    }, _requestTimer * index * 1000)
+  let index = 0;
+
+  const job = schedule.scheduleJob(`${_requestTimer} * * * * *`, () => {
+    if (index >= queue.length) {
+      console.log('you have finshed all requests.\n');
+      job.cancel();
+      return;
+    }
+    const q = queue[index++];
+    getStars(q);
   });
+
+  // queue.forEach((q, index) => { // 循环请求获取数据超级慢！
+  //   let timer = setTimeout(() => { // 每隔固定时间 并非固定数量的请求
+  //     getStars(q);
+  //     clearTimeout(timer);
+  //     timer = null;
+  //   }, _requestTimer * index * 1000)
+  // });
 }
 
 // 从github中获取 star 数量
