@@ -10,7 +10,7 @@ const _token = 'edda2640e3e5390e0d426033ac60ae7e3633555b';
 const _now = Date.now();
 
 let _result = { _createTime: _now, _errorKeys: [] };
-const _queueLength = 5; // 并发请求数量 【根据网络情况调整】
+const _queueLength = 10; // 并发请求数量 【根据网络情况调整】
 const _requestTimer = 20; // 1-59 请求间隔 单位 秒 【根据网络情况调整】
 const _errorKeys = []; // 记录请求出错key
 
@@ -117,7 +117,7 @@ function getNewKeys() {
   const month = 30 * 24 * 60 * 60 * 1000;
   const newKeys = [];
 
-  if (_now - stars.createTime > month) return keys; // 超过一周重新获取数据
+  if (_now - (stars._createTime || 0) > month) return keys; // 超过一周重新获取数据
 
   _result = stars;
   _result._errorKeys = [];

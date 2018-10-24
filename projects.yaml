@@ -44,7 +44,9 @@
     demo: https://juejin.im/tag/掘金翻译计
     describe: 掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台
   mqyqingfeng/Blog: 前端大牛的博文，优质文章
+  jsfront/src: 常用的前端代码分享（ps 每位同学都要有这样积累的习惯）
   hzlzh/Best-App: 收集&推荐优秀的 Apps/硬件/技巧/周边等（与前端无关）
+
 面试相关:
   qiu-deqing/FE-interview: 收集的前端面试题和答案
   BestDingSheng/resources: 知名互联网企业内推，需要换工作的小伙伴擦亮眼睛了
@@ -274,6 +276,8 @@ React相关:
   krasimir/react-in-patterns: react开发设计模式
   vasanthk/react-bits: react最佳实践，有你想知道
   enaqx/awesome-react: react资源大全，react该有的都有了
+  styled-components/styled-components:
+    describe: react项目中写样式的另一种方式，令人激动人心
   facebook/create-react-app: facebook官方提供react开发命令工具，解决初学者的各种烦恼
   zeit/next.js:
     demo: https://nextjs.org
@@ -333,6 +337,11 @@ React相关:
     describe: 学术论文可能会吓着自学游戏和图形的程序猿,通过对比数学符号和JavaScript代码来帮助开发者更容易了解数学符号
   justjavac/free-programming-books-zh_CN:
     describe: 免费的计算机编程类中文书籍,不得不说，现在这个时代太好了。
+  apachecn/awesome-algorithm:
+    describe: 作者带你跟随思路一步一步撸出代码,[Leetcode](https://leetcode.com/problemset/algorithms/?difficulty=Easy)题解大全及经典算法实现
+  donnemartin/system-design-primer:
+    describe: 大型系统架构设计,对扩展眼界很有帮助
+
 浏览器兼容方案:
   # aFarkas/html5shiv: 主要解决html5提出的新的元素不被ie6-9识别
   paulmillr/es6-shim:  提供兼容性垫片，使ES6能兼容于传统的js引擎
