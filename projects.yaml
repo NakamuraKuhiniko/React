@@ -46,6 +46,8 @@
   mqyqingfeng/Blog: 前端大牛的博文，优质文章
   jsfront/src: 常用的前端代码分享（ps 每位同学都要有这样积累的习惯）
   hzlzh/Best-App: 收集&推荐优秀的 Apps/硬件/技巧/周边等（与前端无关）
+  denolib/awesome-deno:
+    describe: Deno项目与生态正在逐步完善，大家可以多多关注
 
 面试相关:
   qiu-deqing/FE-interview: 收集的前端面试题和答案
@@ -77,6 +79,9 @@
     describe: 一个用css绘制图形的web组件。非常酷！请看demo作品
 
 构建工具/预编译:
+  facebook/prepack:
+    demo: https://prepack.io
+    describe: 一个让JS跑得更快的工具。该项目现在处于开发阶段，不能在生产环境中使用
   parcel-bundler/parcel:
     recommand: true
     describe: 一个零配置的新一代前端构建工具，识别各种常用类型文件，最优加载模块，代码拆包等，非常值得尝试的一款打包工具
@@ -91,9 +96,15 @@
     recommand: true
     demo: https://www.tslang.cn/docs/handbook/basic-types.html
     describe: 有类型的js预编译语言，非常强大的预编译与代码报错提示，赋予了JS构建大型项目的可能
+  jkchao/typescript-book-chinese:
+    demo: https://www.tslang.cn/docs/handbook/basic-types.html
+    describe: 深入理解TypeScript中文版，可对日益热门的TS增加更多理解。
   babel/babel:
     recommand: true
     describe: 是一款为了写下一代js的编译器，无需等待浏览器支持就可以使用各种ES6，ES7新的语法
+  jamiebuilds/babel-handbook:
+    demo: https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/README.md
+    describe: Babel手册，可了解babel配置与使用，和babel插件开发
   stylus/stylus:
     recommand: true
     describe: 富有表现力的，健壮的css预编译语言, 除了代码简洁，可读性强外，函数功能非常强大，可与js混合使用，实现动态css编程
@@ -105,7 +116,11 @@
     recommand: true
     describe: 用js插件来对css样式文件，进行转换、预编译等操作，并且实现了模块化，支持非常多插架
 
-测试/工具:
+测试/工具/Mock:
+  facebook/jest:
+    recommand: true
+    demo: https://jestjs.io/
+    describe: 愉快的JS测试框架，也有[TS版本](https://github.com/kulshekhar/ts-jest)，使用方便，简单，文档相当齐全
   mochajs/mocha:  一个简单、灵活有趣的 javascript 测试框架，用于 nodejs 和浏览器上的 js 应用测试
   n1k0/casperjs: 一个基于 phantomjs 的开源导航脚本和测试工具
   karma-runner/karma:  自动化完成单元测试，允许你在多个浏览器里执行js代码。让你的 tdd 变得简单，快速，有趣
@@ -127,6 +142,12 @@
   MicrosoftDX/Vorlonjs:
     demo: http://www.vorlonjs.com
     describe: 远程调试移动端页面的工具，有和PC页面调试一致的体验。比如native app内嵌h5页面、手机h5页面等。国内也一个相同功能的软件[moblie debug](https://www.mobiledebug.com/)。
+  YMFE/yapi:
+    demo: https://github.com/YMFE/yapi
+    describe: 去哪儿大前端开源的api mock服务，三分钟即可部署成功并应用，几乎满足中小型公司Mock需求
+  easy-mock/easy-mock:
+    demo: https://easy-mock.com
+    describe: 相比于Yapi,该项目更简单简洁，仅用于mock api，功能简单容易使用，但管理功能，文档能力不如Yapi
 
 canvas/数据可视化:
   mbostock/d3:
@@ -176,6 +197,9 @@ canvas/数据可视化:
   janpaepke/ScrollMagic:
     demo: http://scrollmagic.io/
     describe: 一款非常赞的滚动交互的js插件，可用于官网与宣传广告场景
+  xtermjs/xterm.js:
+    demo: https://xtermjs.org/
+    describe: 可在web浏览器操作terminal终端，被用于VScode编辑器的终端功能中。
   hakimel/reveal.js: 基于css3的3D幻灯片工具，能够制作绚丽的演示文稿并生成html格式，将它发布到web上
   ksky521/nodePPT: 使用nodejs写的网络幻灯片，可能是迄今为止最好的网页版ppt
   mrdoob/three.js: 是js编写的webgl第三方库，提供了非常多的3D显示功能
@@ -195,6 +219,16 @@ canvas/数据可视化:
   WickyNilliams/headroom.js: 是一个轻量级、纯js组件，用来隐藏或展现页面上的元素，为你的页面留下更多展示内容的空间
   fex-team/ua-device: 史上最全面的userAgent解析库，百度FEX出品
   overtrue/share.js: 一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣等
+  Tonejs/Tone.js:
+    demo: https://musiclab.chromeexperiments.com/
+    describe: 在浏览器中开发音乐相关内容的web Audio框架。demo需要翻墙
+  scribbletune/scribbletune: 用JS编曲的nodejs模块，同样可以运行在浏览器中
+  fullcalendar/fullcalendar:
+    demo: https://fullcalendar.io
+    describe: 一个完整的行程日历组件，包含了月，周，日视图，很适合开发日程相关的应用
+  surveyjs/surveyjs:
+    demo: https://surveyjs.io/Examples/Library/
+    describe: 一个web调查问卷开发的项目
 
 移动端:
   ftlabs/fastclick: 触摸UI上的消除点击延迟js库
@@ -273,8 +307,6 @@ WEB编辑器:
 
 React相关:
   adam-golab/react-developer-roadmap: react的学习路线图2018版
-  krasimir/react-in-patterns: react开发设计模式
-  vasanthk/react-bits: react最佳实践，有你想知道
   enaqx/awesome-react: react资源大全，react该有的都有了
   styled-components/styled-components:
     describe: react项目中写样式的另一种方式，令人激动人心
@@ -339,6 +371,8 @@ React相关:
     describe: 免费的计算机编程类中文书籍,不得不说，现在这个时代太好了。
   apachecn/awesome-algorithm:
     describe: 作者带你跟随思路一步一步撸出代码,[Leetcode](https://leetcode.com/problemset/algorithms/?difficulty=Easy)题解大全及经典算法实现
+  MisterBooo/LeetCodeAnimation:
+    describe: 用动画的形式呈现解LeetCode题目的思路
   donnemartin/system-design-primer:
     describe: 大型系统架构设计,对扩展眼界很有帮助
 
