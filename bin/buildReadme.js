@@ -6,7 +6,8 @@ const paths = require('./paths');
 
 let readme = `# [GitHub 值得收藏的前端项目](https://github.com/CareyToboo/github-FE-project)
 
-> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。[预览](https://careytoboo.github.io/github-FE-project/dist/index.html)
+> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。[更新时间: ${new Date().toLocaleString()}]
+[预览](https://careytoboo.github.io/github-FE-project/dist/index.html)
 
 `;
 
@@ -36,7 +37,7 @@ const buildProjectItem = (options) => {
     recommand ? '`recommand`' : '' } ${
     starCount ? `\`star: ${starCount}\`` : '' } ${
     demo ? `[view](${demo})` : '' } ${
-    image ? `\n\n![image](${paths.githubImgResouce}/${image})` : '' }  \n\n`;
+    image ? `\n\n![image](${paths.githubImgResouce}/${image})?raw=true` : '' }  \n\n`;
 }
 
 module.exports = projects => {

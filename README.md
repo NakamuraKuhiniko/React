@@ -1,6 +1,6 @@
 # [GitHub 值得收藏的前端项目](https://github.com/CareyToboo/github-FE-project)
 
-> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。[预览](https://careytoboo.github.io/github-FE-project/dist/index.html)
+> 整理与收集的一些比较优秀github项目，方便自己阅读，顺便分享出来，大家一起学习，本篇文章会持续更新，版权归原作者所有。[更新时间：2010-10-10 10:10] [预览](https://careytoboo.github.io/github-FE-project/dist/index.html)
 
 - [codepen](https://codepen.io) 一个在线编辑前端项目的网站，其中有一些前端大神的作品，也有很多令人惊艳的前端效果，可以浏览和下载使用    
 

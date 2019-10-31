@@ -19,6 +19,11 @@
     describe: 超级赞的收集与协作管理书签的chrome插件，前端开发应该都会用chrome。全球超过10W+的用户
     github: false
     image: 9.jpg
+  codesandbox:
+    url: https://codesandbox.io
+    describe: 在线项目编辑器，对于写独立demo来说非常nice，一些前端主流的框架代码几乎都有，可以满足你80%的需求
+    github: false
+    image: 10.jpg
   microjs:
     url: http://microjs.com
     describe: 可以让你选择微型的js类库的网站，该网站里的库都是压缩后不大于5KB的，非常实用，该网站的资源都托管到了github
@@ -189,6 +194,10 @@ canvas/数据可视化:
   Justineo/github-hovercard: github 鼠标悬停显示用户，仓库等摘要信息
 
 框架、库和组件:
+  baidu/amis:
+    demo: https://baidu.github.io/amis/
+    describe: 百度开源的admin后台生成框架，据说已经百度已有100+部门使用,创建了1.2w+页面
+    recommand: true
   alibaba/ice:
     demo: https://alibaba.github.io/ice/
     describe: 阿里飞冰，从此再也不担心管理系统的开发。(个人觉得简单项目还是可以，复杂的做不了)
@@ -306,6 +315,13 @@ WEB编辑器:
     describe: 一款功能非常强大的markdown编辑器，有点想"有道云笔记"的md编辑器。非常方便添加自定义功能。
 
 React相关:
+  danilowoz/react-content-loader:
+    demo: http://danilowoz.com/create-content-loader
+    describe: react 骨架屏占位组件，很实用，专注用户体验提升
+  joshwcomeau/react-flip-move:
+    demo: http://joshwcomeau.github.io/react-flip-move/examples
+    describe: react列表重排序动画，支持增/删/重排序动画（作者正在寻找维护者，要试试么～）
+  streamich/react-use: react hooks最新的通用逻辑封装包，该包仍在不断更新
   adam-golab/react-developer-roadmap: react的学习路线图2018版
   enaqx/awesome-react: react资源大全，react该有的都有了
   styled-components/styled-components:
@@ -375,6 +391,24 @@ React相关:
     describe: 用动画的形式呈现解LeetCode题目的思路
   donnemartin/system-design-primer:
     describe: 大型系统架构设计,对扩展眼界很有帮助
+
+WEB游戏:
+  photonstorm/phaser:
+    describe: 非常强大的2D游戏开发框架，面向对象开发，强类型支持，文档示例相当齐全，在外国十分流行
+    demo: http://phaser.io
+    recommand: true
+  pixijs/pixi.js:
+    describe: 一个快速，灵活性强，比较底层与基础的HTML5游戏2D渲染引擎
+    demo: https://www.pixijs.com
+  BabylonJS/Babylon.js:
+    describe: 简单、强大、开源、易于开发的3D游戏引擎
+    demo: https://www.babylonjs.com
+  playcanvas/engine:
+    describe: 快速、轻量的WEBGL游戏引擎
+    demo: https://playcanvas.com
+  hiloteam/Hilo:
+    describe: 阿里巴巴集团开发的一款HTML5跨终端游戏解决方,中文支持
+    demo: https://hiloteam.github.io/examples/index.html
 
 浏览器兼容方案:
   # aFarkas/html5shiv: 主要解决html5提出的新的元素不被ie6-9识别
