@@ -1,5 +1,5 @@
 module.exports = {
-  githubImgResouce: 'https://github.com/CareyToboo/github-FE-project/blob/master/src/img',
+  githubImgResouce: 'http://static.igroupes.com/github/fe-pro',
   githubApi: 'https://api.github.com',
   projects: './projects.yaml',
   build: './README.md',
