@@ -101,6 +101,10 @@
     recommand: true
     demo: https://www.tslang.cn/docs/handbook/basic-types.html
     describe: 有类型的js预编译语言，非常强大的预编译与代码报错提示，赋予了JS构建大型项目的可能
+  labs42io/clean-code-typescript:
+    demo: https://labs42io.github.io/clean-code-typescript/
+    recommand: true
+    describe: typescript代码简洁之道，有非常多的写TS的最佳实践，很值得仔细阅读借鉴
   jkchao/typescript-book-chinese:
     demo: https://www.tslang.cn/docs/handbook/basic-types.html
     describe: 深入理解TypeScript中文版，可对日益热门的TS增加更多理解。
@@ -185,6 +189,7 @@ canvas/数据可视化:
   julianshapiro/velocity: 是一款和jQuery的 $.animate() 有相同API的动画引擎，很适合移动端的动画开发，还打包了颜色动画，转换，循环，easing效果，类动画、滚动等功能
 
 插件:
+  HubSpot/pace: 自动显示页面加载 loading bar 的插件，很多网站项目都在用，非常值得尝试
   iamjoel/front-end-plugins: 前端常用插件汇总
   stefanbuck/awesome-browser-extensions-for-github: 收集关于github上优秀的浏览器插件，非常实用
   videojs/video.js: 开源的html5和flash视频播放器，支持自定义进度条、按钮以及工具栏的底色
@@ -196,8 +201,11 @@ canvas/数据可视化:
 框架、库和组件:
   baidu/amis:
     demo: https://baidu.github.io/amis/
-    describe: 百度开源的admin后台生成框架，据说已经百度已有100+部门使用,创建了1.2w+页面
+    describe: 百度开源的admin后台生成框架， 基于React，据说已经百度已有100+部门使用,创建了1.2w+页面
     recommand: true
+  CareyToboo/rt-admin:
+    demo: https://rt-admin.igroupes.com/
+    describe: 百度 amis 框架的 demo 应用, 完整的权限控制，支持路由、权限、页面、表单、CSS 全支持JSON配置，可以极快速度开发一个admin管理系统
   alibaba/ice:
     demo: https://alibaba.github.io/ice/
     describe: 阿里飞冰，从此再也不担心管理系统的开发。(个人觉得简单项目还是可以，复杂的做不了)
@@ -254,6 +262,7 @@ canvas/数据可视化:
 
 Node.js相关:
   sindresorhus/awesome-nodejs: 关于node包和资源的收集
+  http-party/http-server: 极致简单的nodejs 的 http 服务器，特别适合静态资源服务器，用于单页面打包文件预览，简单强大
   alsotang/node-lessons: nodejs包教不包会
   youyudehexie/node123: node.js中文资料导航
   meteor/meteor: 快速构建web应用的全栈框架，拥有非常常强大的生态圈，但是国内不是很流行
@@ -281,7 +290,7 @@ WEB编辑器:
   codemirror/CodeMirror:
     demo: https://codemirror.net/
     describe: 一个轻量级的代码编辑器，核心代码相当的少，同样支持非常多的编程语言的编辑。
-  ory/editor:
+  react-page/react-page:
     demo: https://editor.ory.am/?utm_source=github&utm_medium=header&utm_campaign=editor
     describe: 下一代的高度定制化的流览器网页内容编辑器，是基于react开发
   tinymce/tinymce:
@@ -315,12 +324,17 @@ WEB编辑器:
     describe: 一款功能非常强大的markdown编辑器，有点想"有道云笔记"的md编辑器。非常方便添加自定义功能。
 
 React相关:
+  prevwong/craft.js:
+    demo: https://craft.js.org/
+    recommand: true
+    decribe: 一个为了制作拖拽UI生成器而生的框架，可以非常方便的制作强大的可视化UI编辑器
   danilowoz/react-content-loader:
     demo: http://danilowoz.com/create-content-loader
     describe: react 骨架屏占位组件，很实用，专注用户体验提升
   joshwcomeau/react-flip-move:
     demo: http://joshwcomeau.github.io/react-flip-move/examples
     describe: react列表重排序动画，支持增/删/重排序动画（作者正在寻找维护者，要试试么～）
+  pelotom/use-methods: react 简化写 reducer 的 hooks，简单方便实用
   streamich/react-use: react hooks最新的通用逻辑封装包，该包仍在不断更新
   adam-golab/react-developer-roadmap: react的学习路线图2018版
   enaqx/awesome-react: react资源大全，react该有的都有了
@@ -362,12 +376,16 @@ React相关:
     recommand: true
     demo: https://www.docz.site
     describe: 基于react开发的写文档的神器,号称 写文档从未如此简单
-  drcmda/react-spring:
-    demo: http://react-spring.surge.sh/
+  react-spring/react-spring:
+    demo: https://www.react-spring.io/
     describe: 写react动画的好帮手，不废话看样例
+  react-spring/react-use-gesture: React 手势库 hooks。能够监听各种鼠标、手指滑动操作。
   facebook/react-360:
     demo: https://facebook.github.io/react-360
     describe: react VR 开发框架
+  remaxjs/remax:
+    demo: https://remaxjs.org/
+    describe: 使用真正的 React 开发各平台小程序、H5的多端框架。阿里团队成员开发。
   NervJS/taro:
     demo: https://taro.aotu.io/
     describe: 一套遵循 React 语法规范的 多端开发 解决方案, 有一套代码多端编译，适用小程序与原生app
