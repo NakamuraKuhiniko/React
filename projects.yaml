@@ -210,7 +210,7 @@ canvas/数据可视化:
     demo: https://alibaba.github.io/ice/
     describe: 阿里飞冰，从此再也不担心管理系统的开发。(个人觉得简单项目还是可以，复杂的做不了)
   Polymer/polymer: 以一切皆组件、最少化代码量、最少框架限制为设计理念的web组件构建框架
-  bartaz/impress.js: 创建令人兴奋的演示。使用css3的转换和过渡，这个库允许你创建令人印象深刻的演示文稿
+  impress/impress.js: 创建令人兴奋的演示。使用css3的转换和过渡，这个库允许你创建令人印象深刻的演示文稿
   janpaepke/ScrollMagic:
     demo: http://scrollmagic.io/
     describe: 一款非常赞的滚动交互的js插件，可用于官网与宣传广告场景
@@ -327,7 +327,7 @@ React相关:
   prevwong/craft.js:
     demo: https://craft.js.org/
     recommand: true
-    decribe: 一个为了制作拖拽UI生成器而生的框架，可以非常方便的制作强大的可视化UI编辑器
+    describe: 一个为了制作拖拽UI生成器而生的框架，可以非常方便的制作强大的可视化UI编辑器
   danilowoz/react-content-loader:
     demo: http://danilowoz.com/create-content-loader
     describe: react 骨架屏占位组件，很实用，专注用户体验提升

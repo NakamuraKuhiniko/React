@@ -6,7 +6,12 @@ const yaml = require('js-yaml');
 
 const paths = require('./paths');
 
-const _token = 'edda2640e3e5390e0d426033ac60ae7e3633555b';
+// 请先获取 githubToken 文档: https://blog.csdn.net/bing900713/article/details/80222188
+// 再次运行 yarn stars 命令
+if (!getGithubToken()) {
+  return
+}
+
 const _now = Date.now();
 
 let _result = { _createTime: _now, _errorKeys: [] };
@@ -56,7 +61,7 @@ function getStars(queue) {
   console.log(`request projects:\n  ${queue.join('\n  ')}\n`);
 
   Promise.all(queue.map(key =>
-    axios.get(`${paths.githubApi}/repos/${key}?access_token=${_token}`)
+    axios.get(`${paths.githubApi}/repos/${key}?access_token=${getGithubToken()}`)
       .catch(error => _errorKeys.push(key)) // 避免一个错误 引起整个 queue 数据浪费
     ))
       .catch(() => _errorKeys.concat(queue)) // 意外错误处理
@@ -151,4 +156,28 @@ function getRequestQueue(newKeys) {
   }
 
   return requestQueue;
+}
+
+function getGithubToken() {
+  let token = ''
+  try {
+    token = require('./githubToken')
+  } catch {
+    //
+  }
+  if (!token) {
+    console.warn(`
+  ------------------------------------------------
+
+  不存在 githubToken, 无法完成请求star数
+  获取 githubToken 方式: https://blog.csdn.net/bing900713/article/details/80222188
+
+  请新建 './bin/githubToken.js' 文件，并复制token到该文件，再次运行 'yarn stars' 命令即可
+
+  module.exports = 'your github token';
+
+  ------------------------------------------------
+    `)
+    return
+  }
 }

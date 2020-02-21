@@ -1,6 +1,7 @@
 /node_modules
 .vscode/
 .cache/
+/bin/githubToken.js
 yarn.lock
 npm-debug.log
 .DS_Store
